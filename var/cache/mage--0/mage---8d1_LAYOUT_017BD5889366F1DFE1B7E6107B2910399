@@ -226,6 +226,11 @@
 <reference name="notifications">
    <block type="tax/adminhtml_notifications" name="tax_notifications" template="tax/notifications.phtml"/>
 </reference>
+<reference name="head">
+   <action method="addCss">
+      <name>mercadopago/styles.css</name>
+   </action>
+</reference>
 <reference name="content">
    <block type="adminhtml/cache" name="cache"/>
    <block type="adminhtml/cache_additional" name="cache.additional" template="system/cache/additional.phtml"/>
