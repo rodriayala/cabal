@@ -1,0 +1,72 @@
+<div class="mainstore-footerarea01-footerinformation em-footer-info">
+<div class="row">
+<div class="col-sm-7">
+<div class="em-block-title" data-collapse-target="#collapse01">
+<p class="h4 em-text-upercase"><span>&iquest;Queres recibir nuestra noticias?</span></p>
+</div>
+<div class="em-block-content block-info" id="collapse01"><div class="em-newsletter-style04 newsletter-clearbutton">
+    <div class="block block-subscribe">
+        <form action="http://luvik.net/cabal/index.php/newsletter/subscriber/new/" method="post" id="em-newsletter-validate-detail-style02">
+            <div class="block-content">
+    			<div class="form-subscribe-content">
+    				<div class="input-box">
+    				   <input type="text" name="email" id="em-newsletter-style02" title="Sign up for our newsletter" class="input-text required-entry validate-email" />
+    				</div>
+    				<div class="actions">
+                        <button type="submit" title="Subscribe" class="button"><span><span>Subscribe</span></span></button>
+                    </div>
+    			</div>
+            </div>
+        </form>
+        <script type="text/javascript">
+        //<![CDATA[
+            var searchFormStyle02 = new Varien.searchForm('em-newsletter-validate-detail-style02', 'em-newsletter-style02', 'Sign up for your email ...'); 
+            var newsletterSubscriberFormDetailStyle02 = new VarienForm('em-newsletter-validate-detail-style02');
+        //]]>
+        </script>
+    </div>
+</div>
+
+<p class="em-social"><a class="em-social-icon em-facebook f-left" href="#" title="em-sample-title"><span class="fa fa-fw"></span></a> <a class="em-social-icon em-twitter f-left" href="#" title="em-sample-title"><span class="fa fa-fw"></span></a> <a class="em-social-icon em-pinterest  f-left" href="#" title="em-sample-title"><span class="fa fa-fw"></span></a> <a class="em-social-icon em-google f-left" href="#" title="em-sample-title"><span class="fa fa-fw"></span></a> <a class="em-social-icon em-rss  f-left" href="#" title="em-sample-title"><span class="fa fa-fw"></span></a></p>
+</div>
+</div>
+<div class="col-sm-5">
+<div class="em-block-title" data-collapse-target="#collapse02">
+<p class="h4 em-text-upercase"><span>Informaci&oacute;n</span></p>
+</div>
+<div class="em-block-content" id="collapse02">
+<ul class="em-links">
+<li class="em-links-item"><a href="http://luvik.net/cabal/index.php/customer/account/create/" title="em-sample-title"><span>Crear Cuenta</span></a></li>
+<li class="em-links-item"><a href="#" title="em-sample-title"><span>Metodos de Pago</span></a></li>
+<li class="em-links-item"><a href="#" title="em-sample-title"><span>Proteccion al comprador</span></a></li>
+</ul>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="em-block-title" data-collapse-target="#collapse03">
+<p class="h4 em-text-upercase"><span>SERVICIOS ADICIONALES</span></p>
+</div>
+<div class="em-block-content" id="collapse03">
+<ul class="em-links">
+<li class="em-links-item"><a href="#" title="em-sample-title"><span>Consultas</span></a></li>
+<li class="em-links-item"><a href="#" title="em-sample-title"><span>Preguntas Frecuentes</span></a></li>
+<li class="em-links-item"><span><a href="#" title="em-sample-title">Terminos y servicios</a></span></li>
+<li class="em-links-item"><a href="http://luvik.net/cabal/index.php/contacts/" title="em-sample-title"><span>Contacto</span></a></li>
+</ul>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="em-block-title" data-collapse-target="#collapse04">
+<p class="h4 em-text-upercase"><span>Tags</span></p>
+</div>
+<div class="em-block-content" id="collapse04">
+<ul class="em-tags-list">
+<li class="em-tags-item"><a href="#" title="em-sample-title"><span>Cabalgatas Largas</span></a></li>
+<li class="em-tags-item"><a href="#" title="em-sample-title"><span>Cabalgatas Cortas</span></a></li>
+<li class="em-tags-item"><a href="#" title="em-sample-title"><span>Contacto</span></a></li>
+<li class="em-tags-item"><a href="#" title="em-sample-title"><span>Promociones</span></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>

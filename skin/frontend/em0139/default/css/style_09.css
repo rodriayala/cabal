@@ -1,0 +1,26 @@
+/*$max-content-width: value screen*/
+/*Category product*/
+/*button style*/
+.menuleft .mega-menu {
+  border-width: 1px;
+  padding-bottom: 3px;
+}
+
+.em_nav .vnav .menu-item-depth-0 > .em-catalog-navigation > li.level0 > a span, .em_nav .vnav .menu-item-depth-0 > a span {
+  padding: 8px 10px 7px;
+}
+
+.em-wrapper-erea06 {
+  margin-top: 0;
+}
+
+.cms-index-index .em-wrapper-main {
+  margin-bottom: 0;
+}
+
+.em-wrapper-product-06 .block-title p.h2 span {
+  background: #999098;
+}
+.em-wrapper-product-06 .block-title p.h2 span:before {
+  background: #999098;
+}

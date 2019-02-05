@@ -1,0 +1,16 @@
+.em-wrapper-ads-01{
+	background:transparent;
+	.item{ .changeBkg(@body_bg4_color);
+		strong{.changeColorFont(@body_text2_color; @h4_font); font-weight:600}
+	}
+	
+}
+.em-wrapper-footer a.em-social-icon{
+	.changeAllColor(@btn1_text_color; @btn1_bg_color);
+	&:hover{.changeAllColor(@btn4_text_color; @btn4_bg_color) !important;}
+	&.em-facebook{background-color:#3b5998}                                                   
+	&.em-twitter{background-color:#00aced}
+	&.em-pinterest{background-color:#cb2027}
+	&.em-google{background-color:#dd4b39}
+	&.em-rss{background-color:#125688}
+}

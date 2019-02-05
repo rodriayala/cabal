@@ -1,0 +1,32 @@
+.cms-index-index .em-wrapper-main .container-main {
+  padding-top: 20px;
+}
+
+.em-owlcarousel-slideshow {
+  margin-bottom: 0px;
+}
+
+.right-service.em-wrapper-ads-01 {
+  padding: 0;
+}
+.right-service.em-wrapper-ads-01 .item {
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 20px;
+}
+.right-service.em-wrapper-ads-01 .item img {
+  margin-bottom: 5px;
+}
+
+.em-color span.emColorStyle01 {
+  background: #c00000;
+}
+.em-color span.emColorStyle02 {
+  background: #049893;
+}
+.em-color span.emColorStyle03 {
+  background: #7f0040;
+}
+.em-color span.emColorStyle04 {
+  background: #e0624f;
+}

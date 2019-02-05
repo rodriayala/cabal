@@ -1,0 +1,31 @@
+<div id="em_ajax_products_<?php echo md5($this->getData('data')) ?>" class="emfilter-ajaxblock-loading"></div>
+<script type="text/javascript">
+    jQuery.ajax({
+		type: "POST",
+		cache: true,
+        url: '<?php echo $this->getUrl('ajaxblock') ?>',
+        data: {data: '<?php echo $this->getData('data') ?>'},
+        success: function(data){
+            var $_e = jQuery('#em_ajax_products_<?php echo md5($this->getData('data')) ?>');
+            $_e.html(data);
+        },
+        complete: function(data){
+            var $_e = jQuery('#em_ajax_products_<?php echo md5($this->getData('data')) ?>');
+            $_e.removeClass('emfilter-ajaxblock-loading').addClass('emfilter-ajaxblock-loaded');
+            var $_eheight = jQuery('#em_ajax_products_<?php echo md5($this->getData('data')) ?>').find('.em-filterproducts-grid'); 
+            setEqualElement($_eheight, '.product-name');
+			if (EM.SETTING.DISABLE_AJAX_ADDTO != 0){
+                var sWishlist = jQuery('.add-to-links').find('a.link-wishlist');
+                if(sWishlist.length){sWishlist.emAjaxWishList();}
+    
+                var sCompare = jQuery('.add-to-links').find('a.link-compare');
+                if(sCompare.length){
+                    sCompare.emAjaxCompare({
+                        sidebarSelector : ".block-compare"
+                    });
+                }
+            }
+			jQuery(window).trigger("ajaxblock");
+        }
+    });
+</script>

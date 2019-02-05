@@ -1,0 +1,23 @@
+.em-wrapper-product-03{
+	margin-bottom:$padding3x;
+	.block-title{ padding:12px 20px; margin-bottom:0; border:1px solid; border-top-width:2px; 
+		.h1{ margin-bottom:0;}
+	}
+	.block-content{ border-bottom:1px solid;}
+
+	.block-wrapper{  border:1px solid; border-top:0;  margin-bottom:-1px}
+	.home-block-right,
+	.home-block-left{ margin-bottom:$padding2x;}
+	.home-block-right .block-content{ padding:0 20px; border:1px solid; border-top:0;
+		ul{ margin-bottom:0; }
+		ul li{ display:block; padding:14px 0 13px; border-top:1px solid;}
+		ul li:first-child{ border-top:0 none;}
+	}
+	.home_brands_list{
+		li{ float:left; padding:8px 10px 0;}
+	}
+	
+}
+
+
+/*===============RTL=================*/

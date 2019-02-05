@@ -1,0 +1,33 @@
+2019-02-05T02:47:14+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : growing buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 383
+2019-02-05T02:47:14+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : growing buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 383
+2019-02-05T02:47:18+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Memory allocation failed  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:47:19+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:47:19+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:47:19+00:00 ERR (3): Warning: simplexml_load_string(): Entity: line 1: parser error : Memory allocation failed  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:47:20+00:00 ERR (3): Warning: simplexml_load_string(): &lt;?xml version=&quot;1.0&quot;?&gt;  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:47:20+00:00 ERR (3): Warning: simplexml_load_string(): ^  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:47:24+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:47:25+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:48:01+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:48:02+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:52:16+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:54:26+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:54:42+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:54:44+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:55:10+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:55:21+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:57:23+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:57:26+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:57:45+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:58:30+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T02:58:55+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T03:00:25+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T03:05:50+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T03:10:55+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T03:14:35+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T03:15:20+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T03:20:33+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T03:25:08+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T03:29:45+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T03:33:42+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510
+2019-02-05T03:34:22+00:00 ERR (3): Warning: simplexml_load_string(): Memory allocation failed : creating buffer  in /var/www/html/cabal/lib/Varien/Simplexml/Config.php on line 510

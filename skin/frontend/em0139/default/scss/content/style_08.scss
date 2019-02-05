@@ -1,0 +1,21 @@
+.banner-brands{ margin-bottom:30px;}
+.banner-brands .middle-brands li{ float:left; width:20%; text-align:center; padding:7px 0 6px}
+.banner-brands .middle-brands li img{ display:inline-block}
+.cms-index-index .em-wrapper-main{ margin-bottom:20px;}
+
+.em-color{
+	span{			
+		&.emColorStyle01{
+			background:#d6496c;
+		}
+		&.emColorStyle02{
+			background:#ff9900;
+		}
+		&.emColorStyle03{
+			background:#cc0000;
+		}
+		&.emColorStyle04{
+			background:#33952c;
+		}
+	}		
+}

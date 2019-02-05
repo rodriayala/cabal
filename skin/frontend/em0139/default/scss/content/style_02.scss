@@ -1,0 +1,31 @@
+.em_nav .vnav .menu-item-depth-0 > .em-catalog-navigation > li.level0 > a span, 
+.em_nav .vnav .menu-item-depth-0 > a span{ padding:13px 10px;}
+.home_brands_list{
+	margin:0;display:inline-block; padding:10px 0;
+	li{ float:left; padding:7px 10px 0; width:50%;
+		a{display:block; padding-top:7px ; }
+	}
+
+	 li:nth-child(1) a, li:nth-child(2) a{ border-top:0 none; padding-top:0;}
+	 li:nth-child(even) { border-right:0 none;}
+
+}
+.cms-index-index .em-wrapper-main{ margin-bottom:0;}
+.em-owlcarousel-slideshow{ margin-bottom:30px;}
+
+.em-color{
+	span{			
+		&.emColorStyle01{
+			background:#2a88ed;
+		}
+		&.emColorStyle02{
+			background:#7799ff;
+		}
+		&.emColorStyle03{
+			background:#7f0040;
+		}
+		&.emColorStyle04{
+			background:#e0624f;
+		}
+	}		
+}

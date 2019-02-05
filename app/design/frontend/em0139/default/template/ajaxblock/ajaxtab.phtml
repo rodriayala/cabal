@@ -1,0 +1,57 @@
+<?php $id="emajaxblock_".md5(uniqid(rand())); ?>
+<div id="<?php echo $id ?>" class="ajaxblock_loading">
+	<div class="ajaxLoad">
+	</div>
+</div>
+<?php
+    $data = base64_encode(json_encode($this->getData()));
+?>
+<script type="text/javascript">// <![CDATA[
+	var divContent = jQuery('#<?php echo $id ?>').parents(".tab-content").first();	
+	jQuery('a[href="#' + divContent.attr("id") + '"]').click(function(event){
+            event.preventDefault();
+            jQuery(this).parent().addClass("active");
+            jQuery(this).parent().siblings().removeClass("active");
+            var tab = jQuery(this).attr("href");
+        	jQuery("#"+jQuery('#<?php echo $id ?>').parents(".emajaxtabs").attr("id")+" .tab-content").not(tab).css("display", "none");
+            jQuery(".emajaxtabs .tab-content").not(tab).removeClass("active");
+            jQuery(tab).addClass("active");
+            jQuery(tab).fadeIn("fast");
+	});
+
+	var tabContent = jQuery('#<?php echo $id ?>').parents(".tab-content").first();
+	if(tabContent.length > 0){
+		var elTitle = jQuery('.custom-tab').find("a[data-tab='" + tabContent.attr("id") + "']").first();
+		if(elTitle.parent(".item").hasClass("active"))
+		{
+			jQuery(elTitle.attr("href")).addClass("active");
+			jQuery.ajax({
+		        url: '<?php echo $this->getUrl('ajaxblock') ?>?data=<?php echo $this->getData('data') ?>',
+		        }).done(function(data) {
+		            jQuery('#<?php echo $id ?>').html(data);
+					jQuery('#<?php echo $id ?>').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+		            jQuery(window).trigger("ajaxblock");
+		    });
+		}
+		else{
+			tabContent.hide();
+			elTitle.bind("click",function () {
+				var that = this;
+				if(!jQuery(this).hasClass("loaded")){
+	                jQuery.ajax({
+	                 url: '<?php echo $this->getUrl('ajaxblock') ?>?data=<?php echo $this->getData('data') ?>',
+	                }).done(function(data) {
+	                    jQuery(that).addClass("loaded");
+	                    jQuery('#<?php echo $id ?>').html(data);
+	                    jQuery('#<?php echo $id ?>').removeClass('ajaxblock_loading').addClass('ajaxblock_loaded');
+	                    jQuery(window).trigger("ajaxblock");
+	                });
+	            }
+			});
+		}
+
+	}
+	
+		
+	
+// ]]></script>

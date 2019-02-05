@@ -1,0 +1,67 @@
+.em-header-style06{
+	.toolbar-switch .toolbar-title{ padding:0 !important;}
+	.link-account,.em-logout-link{
+		position:relative;
+		&:before{
+			@include font-awesome(\f13e,100%);
+			margin-right:10px;			
+		}
+	}
+	.em-register-link,.em-account-link{
+		position:relative;
+		&:before{
+			@include font-awesome(\f084,100%);
+			margin-right:10px;			
+		}
+	}
+	.em-links-wishlist a{
+		position:relative;
+		&:before{
+			@include font-awesome(\f004,100%);
+			margin-right:10px;			
+		}
+	}
+	.top-link-deal{
+		position:relative;
+		&:before{
+			@include font-awesome(\f02c,100%);
+			margin-right:10px;			
+		}
+	}
+	.em-logo .logo{
+		margin:$padding2x 10px;
+	}
+	.welcome-msg,
+	.account-link,
+	.em-top-links > ul li,	
+	.em-top-links ul.links li,	
+	.em-top-links ul.em-links-wishlist li{	
+		padding:$padding2x / 2 - 1px 0 $padding2x / 2;	margin-left:$padding3x;
+		display:inline-block;
+	}
+	.toolbar-switch{
+		span.current{
+			padding:$padding2x / 2 - 1px 0 $padding2x / 2;margin-right:$padding3x;
+		}
+		.toolbar-dropdown ul{
+			left:0;
+			right:auto;
+		}
+	}
+	
+	.em-top-search{	
+		margin:25px 10px;
+	}
+	.em-header-bottom .em-top-cart{ display:block!important; position:absolute; right:0; top:0px; margin-top:5px;}
+	/*fixed top*/
+	.em-menu-hoz{ padding-right:100px;}
+	.em-fixed-top{
+		&.navbar-fixed-top{
+			.em-top-search{	
+				margin:0;
+			}
+			.em-menu-hoz{ padding-right:0;}
+			.em-logo-sticky{ padding:16px 0 !important;}
+		}
+	}
+}

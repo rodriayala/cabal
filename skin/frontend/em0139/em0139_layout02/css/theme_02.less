@@ -1,0 +1,102 @@
+/*.layout02-area07-home-bannerbrands{.changeBkg (@body_bg2_color);}
+.home-block .block-title{ .changeFont (@h1_font); border:1px solid @body_line_color;.changeBkg (@body_bg2_color); }
+.home-block-right .block-content{border:1px solid @body_line_color;.changeBkg (@body_bg2_color); 
+	ul li{border-top:1px solid @body_line_color;
+		a{.link(@body_text3_color,@body_text4_color);.changeFont (@h5_font); font-weight:600;}
+	}
+}
+.home-block .home-block-left .block-content .block-wrapper{  border:1px solid @body_line_color;.changeBkg (@body_bg2_color);}
+.em-wrapper-leftmenu .block-title{.changeAllColor(@btn1_text_color; @btn1_bg_color);.changeFont (@h1_font); span{ font-size:80%;}}
+.home_brands_list li { border-right:1px solid @body_line_color;
+	a{border-top:1px solid @body_line_color;}
+}
+.home-block .block-title{ border-top:2px solid @btn1_line_color;color:@btn1_line_color}
+.home-block.layout02-content-homeblock-fashion .block-title{ border-top:2px solid #c72293;color:#c72293}
+.home-block.layout02-content-homeblock-cosmectic .block-title{ border-top:2px solid #39b54a;color:#39b54a}
+.home-block.layout02-content-homeblock-technology .block-title{ border-top:2px solid #2a88ed;color:#2a88ed}
+.home-block.layout02-content-homeblock-mombaby .block-title{ border-top:2px solid #e04f6c;color:#e04f6c}
+body.cms-index-index,.cms-index-index .em-wrapper-main{.changeBkg (@body_bg_color);}
+body,.em-wrapper-main{.changeBkg (@body_bg2_color);}
+
+.em-wrapper-header .navbar-fixed-top .em-search{
+	.em-search-icon span:before{ background:transparent!important; font-size:30px; color:@topmenu_text_color}
+	&:hover .em-search-icon span:before{background:transparent!important;color:darken(@topmenu_text_color,10%)!important;opacity: 0.5;   filter: alpha(opacity=50);}
+	button.button{ border:0 none;color:@header_text_color;&:hover{opacity: 0.5;   filter: alpha(opacity=50);}}
+}
+.em-wrapper-footer a.em-social-icon{
+	.changeAllColor(@btn1_text_color; @btn1_bg_color);
+	&:hover{.changeAllColor(@btn4_text_color; @btn4_bg_color) !important;}
+	&.em-facebook{background-color:#3b5998}
+	&.em-twitter{background-color:#00aced}
+	&.em-pinterest{background-color:#cb2027}
+	&.em-google{background-color:#dd4b39}
+	&.em-rss{background-color:#125688}
+}
+.em-footer-bottom .container{.changeLine(@footer_line_color);}
+.em-footer-top .em-links li.em-links-item{.changeFont (@h5_font); a{ font-size:90%}}
+*/
+
+#em-mheader{
+	.changeBkg(@topmenu_bg_color);
+}
+.all_categories .menuleftText{
+	.changeColor(@topmenu_text_color);
+}
+
+.home-bannerbrands{.changeBkg (@body_bg2_color);}
+.home_brands_list li { border-right:1px solid @body_line_color;
+	a{border-top:1px solid @body_line_color;}
+}
+.em-wrapper-product-03{
+	.block-title{.changeBkg (@body_bg2_color);
+	.changeLine(@body_line_color);}
+	&.block-title-color01{
+		.block-title{border-top-color:#c72293;
+		.h1{.changeColor(#c72293);}}
+		a{ .link(@body_text3_color,#c72293)}
+	}
+	&.block-title-color02{
+		.block-title{border-top-color:#39b54a;
+		.h1{.changeColor(#39b54a);}}
+		a{ .link(@body_text3_color,#39b54a)}
+	}
+	&.block-title-color03{
+		.block-title{border-top-color:#fca919;
+		.h1{.changeColor(#fca919);}}
+		a{ .link(@body_text3_color,#fca919)}
+	}
+	&.block-title-color04{
+		.block-title{border-top-color:#2a88ed;
+		.h1{.changeColor(#2a88ed);}}
+		a{ .link(@body_text3_color,#2a88ed)}
+	}
+	&.block-title-color05{
+		.block-title{border-top-color:#e04f6c;
+		.h1{.changeColor(#e04f6c);}}
+		a{ .link(@body_text3_color,#e04f6c)}
+	}
+	.block-content,
+	.block-wrapper{ .changeBkg (@body_bg2_color); .changeLine(@body_line_color);}
+	.home-block-right .block-content{
+		.changeLine(@body_line_color);.changeBkg (@body_bg2_color); 
+		ul li{.changeLine(@body_line_color);
+			a{.changeFont (@h5_font); font-weight:600;}
+		}
+	}
+}
+
+.em-wrapper-footer a.em-social-icon{
+	.changeAllColor(@btn1_text_color; @btn1_bg_color);
+	&:hover{.changeAllColor(@btn4_text_color; @btn4_bg_color) !important;}
+	&.em-facebook{background-color:#3b5998}
+	&.em-twitter{background-color:#00aced}
+	&.em-pinterest{background-color:#cb2027}
+	&.em-google{background-color:#dd4b39}
+	&.em-rss{background-color:#125688}
+}
+.em-footer-bottom .container{.changeLine(@footer_line_color);}
+.em-footer-top .em-links li.em-links-item{.changeFont (@h5_font); a{ font-size:90%}}
+
+
+
+

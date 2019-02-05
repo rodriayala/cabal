@@ -1,0 +1,27 @@
+<div id="em_ajax_tabs_<?php echo md5($this->getData('data')) ?>" class="emtabs-ajaxblock-loading"></div>
+<script type="text/javascript">
+    jQuery.ajax({
+		type: "POST",
+        url: '<?php echo $this->getUrl('ajaxblock') ?>',
+        data: {data: '<?php echo $this->getData('data') ?>'},
+        success: function(data){
+            var $_e = jQuery('#em_ajax_tabs_<?php echo md5($this->getData('data')) ?>');
+            $_e.html(data);            
+        },
+        complete: function(data){
+            var $_e = jQuery('#em_ajax_tabs_<?php echo md5($this->getData('data')) ?>');
+            $_e.removeClass('emtabs-ajaxblock-loading').addClass('emtabs-ajaxblock-loaded');
+            if (EM.SETTING.DISABLE_AJAX_ADDTO != 0){
+                var sWishlist = jQuery('.add-to-links').find('a.link-wishlist');
+                if(sWishlist.length){sWishlist.emAjaxWishList();}            
+    
+                var sCompare = jQuery('.add-to-links').find('a.link-compare');
+                if(sCompare.length){
+                    sCompare.emAjaxCompare({
+                        sidebarSelector : ".block-compare"
+                    });
+                }
+            }   
+        }
+    });
+</script>

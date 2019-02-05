@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+  <general>
+    <theme_name><![CDATA[EM0139 EM Everest Ultimate Layout 08 - Shoppy Supermarket]]></theme_name>
+    <identifier><![CDATA[em0139-layout08]]></identifier>
+    <base_theme><![CDATA[em0139]]></base_theme>
+    <package><![CDATA[em0139]]></package>
+    <template><![CDATA[em0139_layout08]]></template>
+    <layout><![CDATA[em0139_layout08]]></layout>
+    <skin><![CDATA[em0139_layout08]]></skin>
+    <default_theme><![CDATA[]]></default_theme>
+    <path><![CDATA[shoppy_supermarket.jpg]]></path>
+    <is_clone><![CDATA[0]]></is_clone>
+  </general>
+  <settings>
+    <config_json><![CDATA[{"general_disable_responsive":"1","general_right_to_left":"0","general_right_to_left_preview":"","general_box_wide":"wide","general_box_wide_preview":"","general_wideslide_full":"0","general_wideslide_full_preview":"","general_sticky_element":"1","general_header_style":"style01","general_footer_style":"style05","general_disable_default_nav":"0","general_disable_hover_login":"1","general_cat_search":"2","general_show_popup":"2","general_disable_ajaxaddto":"1","general_disable_frontend_variation":"1","general_admin_toolbar":"0","general_disable_collapse":"1","css_additional_css_file":"style_08.css,theme_08.less","css_custom_css":"","fonts_google_font_key":"AIzaSyCZ6wqklkyJFXWvoxvA5Zv0SGzHTd6JbbI","fonts_google_fonts":["Maven Pro","Open Sans","Roboto","Roboto Condensed"],"fonts_font_family":"null","fonts_google_fonts_weights":"200,300,400,500,600,700,800","fonts_general_font":"500 13px\/1.55 Open Sans,Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h1_font":"500 22px\/1.15 Roboto, Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h2_font":"700 20px\/1.35 Roboto, Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h3_font":"700 18px\/1.35 Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h4_font":"500 16px\/1.35 Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h5_font":"500 14px\/1.55 Open Sans,Helvetica Neue, Helvetica, Arial, sans-serif","fonts_h6_font":"500 12px\/1.35 Open Sans,Helvetica, Arial, sans-serif","typo_general_page_bg_color":"#ffffff","typo_general_page_bg_image":"","typo_general_page_bg_position":"0 0","typo_general_page_bg_repeat":"repeat","typo_general_page_bg_attachment":"fixed","typo_general_box_shadow":"0 0 5px #ffffff","typo_general_rounded_corner":"0","header_header_bg_color":"#ffffff","header_header_bg2_color":"#f7f7f7","header_header_bg4_color":"#ffffff","header_header_bg5_color":"#ffffff","header_header_bg_image":"","header_header_bg_position":"0 0","header_header_bg_repeat":"repeat","header_header_text_color":"#707070","header_header_text2_color":"#111111","header_header_text3_color":"#282828","header_header_text4_color":"#898989","header_header_line_color":"#e1e1e1","menu_topmenu_bg_color":"#ebebeb","menu_topmenu_hover_bg_color":"#ebebeb","menu_topmenu_text_color":"#252525","menu_topmenu_hover_text_color":"#3f51b5","menu_topmenu_line_color":"#252525","menu_topmenu_font":"700 14px\/1.35 Open Sans,Helvetica Neue, Helvetica, Arial, sans-serif","menu_vnav_bg_color":"#ffffff","menu_vnav_hover_bg_color":"#ffffff","menu_vnav_text_color":"#464646","menu_vnav_hover_text_color":"#3f51b5","menu_vnav_line_color":"#ebebeb","menu_vnav_font":"500 14px\/1.35 Roboto,Helvetica Neue, Helvetica, Arial, sans-serif","menu_dropmenu_bg_color":"#ffffff","menu_dropmenu_text_color":"#a1a1a1","menu_dropmenu_text2_color":"#3f51b5","menu_dropmenu_text3_color":"#434343","menu_dropmenu_line_color":"#e9e9e9","menu_dropmenu_font":"normal 14px\/1.55 Roboto Condensed, Helvetica, Arial, sans-serif","body_body_bg_color":"#f7f7f7","body_body_bg2_color":"#ffffff","body_body_bg3_color":"#3f51b5","body_body_bg4_color":"#f1f1f1","body_body_tab_bg_color":"#e1e1e1","body_body_label_bg_color":"#1585c7","body_body_label_bg2_color":"#ff9301","body_body_label_bg3_color":"#f60000","body_body_bg_image":"","body_body_bg_position":"0 0","body_body_bg_repeat":"repeat","body_body_text_color":"#808080","body_body_text2_color":"#252525","body_body_text3_color":"#363636","body_body_text4_color":"#3f51b5","body_body_text5_color":"#898989","body_body_text6_color":"#ffffff","body_body_text7_color":"#3f51b5","body_body_line_color":"#e1e1e1","body_body_line2_color":"#3f51b5","footer_footer_bg_color":"#ffffff","footer_footer_bg2_color":"#ffffff","footer_footer_bg3_color":"#ffffff","footer_footer_bg_image":"","footer_footer_bg_position":"0 0","footer_footer_bg_repeat":"repeat","footer_footer_text_color":"#363636","footer_footer_text2_color":"#3f51b5","footer_footer_text3_color":"#363636","footer_footer_text4_color":"#ffffff","footer_footer_line_color":"#898989","buttons_btn1_bg_color":"#3f51b5","buttons_btn1_text_color":"#ffffff","buttons_btn1_line_color":"#3f51b5","buttons_btn1_font":"700 12px\/1.35 Maven Pro, Helvetica, Arial, sans-serif","buttons_btn2_bg_color":"#f1f1f1","buttons_btn2_text_color":"#a1a1a1","buttons_btn2_line_color":"#f1f1f1","buttons_btn2_font":"700 12px\/1.35 Maven Pro, Helvetica, Arial, sans-serif","buttons_btn3_bg_color":"#3f51b5","buttons_btn3_text_color":"#ffffff","buttons_btn3_line_color":"#3f51b5","buttons_btn3_font":"700 12px\/1.15 Maven Pro, Helvetica, Arial, sans-serif","buttons_btn4_bg_color":"#ff9900","buttons_btn4_text_color":"#ffffff","buttons_btn4_line_color":"#ff9900","buttons_btn4_font":"700 18px\/1.35 Maven Pro, Helvetica, Arial, sans-serif","buttons_btn5_bg_color":"#ffffff","buttons_btn5_text_color":"#898989","buttons_btn5_line_color":"#e1e1e1","buttons_btn5_font":"700 12px\/1.35 Maven Pro, Helvetica, Arial, sans-serif","buttons_btn6_bg_color":"#ffffff","buttons_btn6_text_color":"#898989","buttons_btn6_line_color":"#e1e1e1","buttons_btn6_font":"700 12px\/1.35 Maven Pro, Helvetica, Arial, sans-serif","buttons_btn7_bg_color":"#ffffff","buttons_btn7_text_color":"#363636","buttons_btn7_line_color":"#ebebeb","buttons_btn7_font":"700 12px\/1.35 Maven Pro, Helvetica, Arial, sans-serif","products_grid_onecolumn":"5","products_grid_twocolumns":"4","products_grid_threecolumns":"3","products_grid_desktop_small_onecolumn":"4","products_grid_desktop_small_twocolumns":"3","products_grid_desktop_small_threecolumns":"2","products_grid_tablet_onecolumn":"3","products_grid_tablet_twocolumns":"3","products_grid_tablet_threecolumns":"2","products_grid_items_mobile":"2","products_grid_image_ratio":"1","products_grid_custom_width":"1","products_grid_custom_height":"1","products_grid_alt_img":"image","products_grid_config_hover":"mobile","products_grid_align_center":"1","products_grid_show_thumbnail":"1","products_grid_show_label":"1","products_grid_show_product_name":"1","products_grid_auto_product_name":"0","products_grid_show_desc":"2","products_grid_show_price":"1","products_grid_show_reviews":"1","products_grid_show_addtocart":"1","products_list_gutter":"","products_list_image_ratio":"1","products_list_custom_width":"1","products_list_custom_height":"1","products_list_alt_img":"image","products_list_show_product_name":"1","products_list_show_thumbnail":"1","products_list_show_desc":"1","products_list_show_price":"1","products_list_show_reviews":"1","products_list_show_addtocart":"1","products_list_show_addto":"1","products_list_show_label":"1","product_detail_product_view_preview":"","product_detail_primary_column_width":"9","product_detail_secondary_column_width":"7","product_detail_desc_column_width":"8","product_detail_base_image_width":"500","product_detail_base_image_height":"523","product_detail_primary_two_column_width":"12","product_detail_secondary_two_column_width":"12","product_detail_desc_two_column_width":"24","product_detail_base_two_image_width":"380","product_detail_base_two_image_height":"397","product_detail_primary_three_column_width":"12","product_detail_secondary_three_column_width":"12","product_detail_desc_three_column_width":"24","product_detail_base_three_image_width":"380","product_detail_base_three_image_height":"397","product_detail_show_sku":"1","product_detail_viewmode":"cloudzoom","product_detail_cloud_zoom_width":"500","product_detail_cloud_zoom_height":"500","product_detail_use_tabs":"1","moreview_width":"100","moreview_height":"105","moreview_enable_slider":"1","moreview_slider_items":"3","moreview_slider_items_desktop":"4","moreview_slider_items_desktop_small":"3","moreview_slider_items_tablet":"3","moreview_slider_items_mobile":"2","moreview_slider_navigation":"1","moreview_slider_pagination":"0","moreview_slider_pagination_numbers":"0","related_display":"dont_replace","related_position":"top_tabs","related_width":"180","related_height":"188","related_enable_slider":"1","related_slider_items":"4","related_slider_items_two":"4","related_slider_items_three":"3","related_slider_items_desktop":"5","related_slider_items_desktop_small":"3","related_slider_items_tablet":"3","related_slider_items_mobile":"2","related_slider_navigation":"1","related_slider_pagination":"0","related_slider_pagination_numbers":"0","upsell_display":"replace_empty","upsell_width":"180","upsell_height":"188","upsell_enable_slider":"1","upsell_slider_items":"4","upsell_slider_items_two":"3","upsell_slider_items_three":"2","upsell_slider_items_desktop":"4","upsell_slider_items_desktop_small":"3","upsell_slider_items_tablet":"3","upsell_slider_items_mobile":"2","upsell_slider_navigation":"1","upsell_slider_pagination":"0","upsell_slider_pagination_numbers":"0","position_catalog_shopby":"em_layer","position_catalog_leftnav":"em_layer","position_catalog_search_layer":"em_layer","position_catalog_related":"right","position_compare":"all","position_poll":"all","position_popular_tags":"left","position_wishlist_sidebar":"all","position_reorder_sidebar":"right","home_position_compare":"0","home_position_poll":"0","home_position_tags":"0","home_position_wishlist":"0","home_position_reorder":"0","crossell_display":"replace_empty","crossell_width":"280","crossell_height":"293","crossell_enable_slider":"1","crossell_slider_items":"4","crossell_slider_items_desktop":"4","crossell_slider_items_desktop_small":"3","crossell_slider_items_tablet":"3","crossell_slider_items_mobile":"2","crossell_slider_navigation":"1","crossell_slider_pagination":"0","crossell_slider_pagination_numbers":"0","image_sidebar_width":"100","image_sidebar_height":"105","related_sidebar_width":"100","related_sidebar_height":"105","image_shopping_cart_width":"100","image_shopping_cart_height":"105","recently_viewed_width":"100","recently_viewed_height":"105","flashtag_enabled":"0","flashtag_count":"100","flashtag_max":"20","flashtag_min":"12","flashtag_maxcolor":"#646464","flashtag_normal":"#646464","flashtag_hover":"#646464","ajaxcart_auto_close":"0","contacts_map_enable":"1","contacts_map_address":"249 Ung Van Khiem, Phuong 25, Binh Thanh, Ho Chi Minh","contacts_map_info":"We really care about you and your website as much as you do. Purchasing EM0131 Everything or any other theme from us you get 100% free support.","contacts_map_height":"500","contacts_map_width":"100%","contacts_map_image":null,"snippets_enable":"0","snippets_review":"0","snippets_price":"0","snippets_breadcrumbs":"0","snippets_description":"0","thumbnail":null,"typo_general_page_bg_file":null,"header_header_bg_file":null,"body_body_bg_file":null,"footer_footer_bg_file":null}]]></config_json>
+    <excluded_blocks><![CDATA[em0139-mainstore-area05-specialproducts&em0139-mainstore-area06-service&em0139-mainstore-area01-leftmenu&em0139-mainstore-area02-mainslideshow&em0139-mainstore-area03-home-dailydeals&em0139-mainstore-area04-home-bestseller&em0139-mainstore-content-block1-mobiletablet&em0139-mainstore-content-block2-fashionworld&em0139-mainstore-content-block3-familyfood&em0139-mainstore-content-block4-mombabycare&em0139-mainstore-content-block5-electronicappliances]]></excluded_blocks>
+  </settings>
+  <sample_data>
+    <flexible_block>
+      <fblock>
+        <package_theme><![CDATA[em0139/em0139_layout08]]></package_theme>
+        <title><![CDATA[EM0139 Everest Ultimate - Layout 08 Super Market 03 - Area01 - Left Menu]]></title>
+        <identifier><![CDATA[em0139-layout08-area01-leftmenu]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[em_area1]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[default]]></layout_handle_2>
+        <position_2><![CDATA[em_sticky_menu]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="layout08-area01-leftmenu top-menu-left menu-wrapper">
+<div class="all_categories">
+<div class="menuleftText-title">
+<div class="menuleftText"><span>Shop By Category</span></div>
+</div>
+</div>
+<div class="menuleft">
+<div class="menu-default mega-menu vertical-menu">{{widget type="megamenupro/megamenupro" menu="9"}}</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0139/em0139_layout08]]></package_theme>
+        <title><![CDATA[EM0139 Everest Ultimate - Layout 08 Super Market 03 - Area02 - Main Slideshow]]></title>
+        <identifier><![CDATA[em0139-layout08-area02-mainslideshow]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[em_area2]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="layout08-area02-mainslideshow">{{widget type="minislideshow/minislideshow" slideshow="7"}}</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0139/em0139_layout08]]></package_theme>
+        <title><![CDATA[EM0139 Everest Ultimate - Layout 08 Super Market 03 - Area03 - Home Banner Ads 01]]></title>
+        <identifier><![CDATA[em0139-layout08-area03-home-bannerads01]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[em_area3]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="layout08-area03-home-bannerads01 row banner-brands hidden-xs">
+<div class="col-sm-6 em-effect10"><a href="#"><img class="img-responsive retina-img em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/banner_ads01.jpg'}}" /> </a></div>
+<div class="col-sm-12 middle-brands em-clear-padding">
+<div class="row">
+<div class="col-sm-24 em-clear-padding">
+<ul>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand01.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand02.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand03.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand04.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand05.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand06.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand07.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand08.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand09.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand10.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand11.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand12.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand13.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand14.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand15.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand16.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand17.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand18.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand19.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand20.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand21.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand22.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand23.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand24.png'}}" /></a></li>
+<li class="em-effect11"><a href="#"><img class="img-responsive em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/brands/brand25.png'}}" /></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-sm-6 em-effect10"><a href="#"><img class="img-responsive retina-img em-img-lazy" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/banner_ads02.jpg'}}" /> </a></div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0139/em0139_layout08]]></package_theme>
+        <title><![CDATA[EM0139 Everest Ultimate - Layout 08 Super Market 03 - Main Content - Home Block 1 - Phone & Accessories]]></title>
+        <identifier><![CDATA[em0139-layout08-content-home-block1-phone-accessories]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[content]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[1]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="layout08-content-home-block1-phone_accessories em-wrapper-product-07 block-color01 row">
+<div class="em-tabs-widget tabs-widget">
+<div id="emajaxtabs_1" class="em-tabs emajaxtabs">
+<div class="col-sm-6">
+<div class="block-left">
+<div class="block-title">
+<p class="h2">PHONE &amp; ACCESSORIES</p>
+</div>
+<ul class="tabs custom-tab">
+<li class="item tab-link active"><a href="#tab_emajaxtabs_1_1" data-hover="Tab 1" data-tab="tab_emajaxtabs_1_1">Mobile Phone</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_1_2" data-hover="Tab 3" data-tab="tab_emajaxtabs_1_2">Phone Bags &amp; Cases</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_1_3" data-hover="Tab 4" data-tab="tab_emajaxtabs_1_3">Backup Powers</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_1_4" data-hover="Tab 5" data-tab="tab_emajaxtabs_1_4">Mobile Phone Parts</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_1_5" data-hover="Tab 6" data-tab="tab_emajaxtabs_1_5">Mobile Phone Accessories</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_1_6" data-hover="Tab 7" data-tab="tab_emajaxtabs_1_6">Communication Equipments</a></li>
+</ul>
+<div class="em-effect10"><a href="#"><img class="img-responsive em-img-lazy hidden-xs" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/block1_banner1.jpg'}}" /></a></div>
+</div>
+</div>
+<div class="block-right col-sm-18">
+<div class="tab-content-container">
+<div id="tab_emajaxtabs_1_1" class="tab-content active">
+<div class="block-banner hidden-xs"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block1_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="58" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 1" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_1_2" class="tab-content">
+<div class="block-banner hidden-xs"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block1_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="62" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 2" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_1_3" class="tab-content">
+<div class="block-banner hidden-xs"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block1_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="64" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 3" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_1_4" class="tab-content">
+<div class="block-banner hidden-xs"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block1_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="63" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 4" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_1_5" class="tab-content">
+<div class="block-banner hidden-xs"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block1_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="64,62" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 5" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_1_6" class="tab-content">
+<div class="block-banner"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block1_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="64,62" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 6" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0139/em0139_layout08]]></package_theme>
+        <title><![CDATA[EM0139 Everest Ultimate - Layout 08 Super Market 03 - Main Content - Home Block 2 - Baby & Mom]]></title>
+        <identifier><![CDATA[em0139-layout08-content-home-block2-baby-mom]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[content]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[2]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="layout08-content-home-block2-baby_mom em-wrapper-product-07 block-color02 row">
+<div class="em-tabs-widget tabs-widget ">
+<div id="emajaxtabs_2" class="em-tabs emajaxtabs">
+<div class="col-sm-6">
+<div class="block-left">
+<div class="block-title">
+<p class="h2">BABY &amp; MOM</p>
+</div>
+<ul class="tabs custom-tab">
+<li class="item tab-link active"><a href="#tab_emajaxtabs_2_1" data-hover="Tab 1" data-tab="tab_emajaxtabs_2_1">Baby Girls Clothing</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_2_2" data-hover="Tab 2" data-tab="tab_emajaxtabs_2_2">Baby Boy Clothing</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_2_3" data-hover="Tab 3" data-tab="tab_emajaxtabs_2_3">Baby Shoes</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_2_4" data-hover="Tab 4" data-tab="tab_emajaxtabs_2_4">Baby Care</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_2_5" data-hover="Tab 5" data-tab="tab_emajaxtabs_2_5">Activity &amp; Gear</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_2_6" data-hover="Tab 6" data-tab="tab_emajaxtabs_2_6">Maternity</a></li>
+</ul>
+<div class="em-effect10"><a href="#"><img class="img-responsive em-img-lazy hidden-xs" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/block2_banner1.jpg'}}" /></a></div>
+</div>
+</div>
+<div class="block-right col-sm-18">
+<div class="tab-content-container">
+<div id="tab_emajaxtabs_2_1" class="tab-content active">
+<div class="block-banner row em-clear-margin hidden-xs">
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block2_banner2.jpg'}}" /></a></div>
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block2_banner3.jpg'}}" /></a></div>
+</div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="96" type_filter="5" limit_count="4" order_by="name asc" custom_class="tab 1" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_2_2" class="tab-content">
+<div class="block-banner row em-clear-margin hidden-xs">
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block2_banner2.jpg'}}" /></a></div>
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block2_banner3.jpg'}}" /></a></div>
+</div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="98" type_filter="5" limit_count="4" order_by="name asc" custom_class="tab 2" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_2_3" class="tab-content">
+<div class="block-banner row em-clear-margin hidden-xs">
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block2_banner2.jpg'}}" /></a></div>
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block2_banner3.jpg'}}" /></a></div>
+</div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="95" type_filter="5" limit_count="4" order_by="name asc" custom_class="tab 3" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_2_4" class="tab-content">
+<div class="block-banner row em-clear-margin hidden-xs">
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block2_banner2.jpg'}}" /></a></div>
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block2_banner3.jpg'}}" /></a></div>
+</div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="97" type_filter="5" limit_count="4" order_by="name asc" custom_class="tab 4" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_2_5" class="tab-content">
+<div class="block-banner row em-clear-margin hidden-xs">
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block2_banner2.jpg'}}" /></a></div>
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block2_banner3.jpg'}}" /></a></div>
+</div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="99" type_filter="5" limit_count="4" order_by="name asc" custom_class="tab 5" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_2_6" class="tab-content">
+<div class="block-banner row em-clear-margin hidden-xs">
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block2_banner2.jpg'}}" /></a></div>
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block2_banner3.jpg'}}" /></a></div>
+</div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="96" type_filter="5" limit_count="4" order_by="name asc" custom_class="tab 6" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0139/em0139_layout08]]></package_theme>
+        <title><![CDATA[EM0139 Everest Ultimate - Layout 08 Super Market 03 - Main Content - Home Block 3 - Sport & Outdoor]]></title>
+        <identifier><![CDATA[em0139-layout08-content-home-block3-sport-outdoor]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[content]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[3]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="layout08-content-home-block3-sport_outdoor em-wrapper-product-07 block-color03 row">
+<div class="em-tabs-widget tabs-widget ">
+<div id="emajaxtabs_3" class="em-tabs emajaxtabs">
+<div class="col-sm-6">
+<div class="block-left">
+<div class="block-title">
+<p class="h2">SPORT &amp; OUTDOOR</p>
+</div>
+<ul class="tabs custom-tab">
+<li class="item tab-link active"><a href="#tab_emajaxtabs_3_1" data-hover="Tab 1" data-tab="tab_emajaxtabs_3_1">Sneakers</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_3_2" data-hover="Tab 2" data-tab="tab_emajaxtabs_3_2">Sport Clothing</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_3_3" data-hover="Tab 3" data-tab="tab_emajaxtabs_3_3">Fitness &amp; Body Building</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_3_4" data-hover="Tab 4" data-tab="tab_emajaxtabs_3_4">Water Sports</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_3_5" data-hover="Tab 5" data-tab="tab_emajaxtabs_3_5">Roller, Skate board &amp; Scooters</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_3_6" data-hover="Tab 6" data-tab="tab_emajaxtabs_3_6">Sports Bags</a></li>
+</ul>
+<div class="em-effect10"><a href="#"><img class="img-responsive em-img-lazy hidden-xs" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/block3_banner1.jpg'}}" /></a></div>
+</div>
+</div>
+<div class="block-right col-sm-18">
+<div class="tab-content-container">
+<div id="tab_emajaxtabs_3_1" class="tab-content active">
+<div class="block-banner row em-clear-margin hidden-xs">
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block3_banner2.jpg'}}" /></a></div>
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block3_banner3.jpg'}}" /></a></div>
+</div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="114" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 1" show="thumb,name,review,price,addtocart,addto" thumbnail_width="250" thumbnail_height="250" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_3_2" class="tab-content">
+<div class="block-banner row em-clear-margin hidden-xs">
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block3_banner2.jpg'}}" /></a></div>
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block3_banner3.jpg'}}" /></a></div>
+</div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="115" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 2" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_3_3" class="tab-content">
+<div class="block-banner row em-clear-margin hidden-xs">
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block3_banner2.jpg'}}" /></a></div>
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block3_banner3.jpg'}}" /></a></div>
+</div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="114" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 3" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_3_4" class="tab-content">
+<div class="block-banner row em-clear-margin hidden-xs">
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block3_banner2.jpg'}}" /></a></div>
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block3_banner3.jpg'}}" /></a></div>
+</div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="115" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 4" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_3_5" class="tab-content">
+<div class="block-banner row em-clear-margin hidden-xs">
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block3_banner2.jpg'}}" /></a></div>
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block3_banner3.jpg'}}" /></a></div>
+</div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="114" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 5" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_3_6" class="tab-content">
+<div class="block-banner row em-clear-margin hidden-xs">
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block3_banner2.jpg'}}" /></a></div>
+<div class="col-sm-12 em-clear-padding"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block3_banner3.jpg'}}" /></a></div>
+</div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="115" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 6" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0139/em0139_layout08]]></package_theme>
+        <title><![CDATA[EM0139 Everest Ultimate - Layout 08 Super Market 03 - Main Content - Home Block 4 - Fashion & Clothing]]></title>
+        <identifier><![CDATA[em0139-layout08-content-home-block4-fashion-clothing]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[content]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[4]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="layout08-content-home-block4-fashion_clothing em-wrapper-product-07 block-color04 row">
+<div class="em-tabs-widget tabs-widget ">
+<div id="emajaxtabs_4" class="em-tabs emajaxtabs">
+<div class="col-sm-6">
+<div class="block-left">
+<div class="block-title">
+<p class="h2">FASHION &amp; CLOTHING</p>
+</div>
+<ul class="tabs custom-tab">
+<li class="item tab-link active"><a href="#tab_emajaxtabs_4_1" data-hover="Tab 1" data-tab="tab_emajaxtabs_4_1">Dresses</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_4_2" data-hover="Tab 2" data-tab="tab_emajaxtabs_4_2">Blouses &amp; Shirts</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_4_3" data-hover="Tab 3" data-tab="tab_emajaxtabs_4_3">Jackets &amp; Coats</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_4_4" data-hover="Tab 4" data-tab="tab_emajaxtabs_4_4">Accessories</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_4_5" data-hover="Tab 5" data-tab="tab_emajaxtabs_4_5">Intimates</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_4_6" data-hover="Tab 6" data-tab="tab_emajaxtabs_4_6">Jumpsuits &amp; Rompers</a></li>
+</ul>
+<div class="em-effect10"><a href="#"><img class="img-responsive em-img-lazy hidden-xs" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/block4_banner1.jpg'}}" /></a></div>
+</div>
+</div>
+<div class="block-right col-sm-18">
+<div class="tab-content-container">
+<div id="tab_emajaxtabs_4_1" class="tab-content active">
+<div class="block-banner hidden-xs"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block4_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="94" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 1" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_4_2" class="tab-content">
+<div class="block-banner hidden-xs"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block4_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="91" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 2" show="thumb,name,review,price,addtocart,addto" thumbnail_width="250" thumbnail_height="250" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_4_3" class="tab-content">
+<div class="block-banner hidden-xs"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block4_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="89" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 3" show="thumb,name,review,price,addtocart,addto" thumbnail_width="250" thumbnail_height="250" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_4_4" class="tab-content">
+<div class="block-banner hidden-xs"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block4_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="93" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 4" show="thumb,name,review,price,addtocart,addto" thumbnail_width="250" thumbnail_height="250" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_4_5" class="tab-content">
+<div class="block-banner hidden-xs"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block4_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="94" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 5" show="thumb,name,review,price,addtocart,addto" thumbnail_width="250" thumbnail_height="250" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_4_6" class="tab-content">
+<div class="block-banner hidden-xs"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block4_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="91" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 6" show="thumb,name,review,price,addtocart,addto" thumbnail_width="250" thumbnail_height="250" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0139/em0139_layout08]]></package_theme>
+        <title><![CDATA[EM0139 Everest Ultimate - Layout 08 Super Market 03 - Main Content - Home Block 5 - Home & Garden]]></title>
+        <identifier><![CDATA[em0139-layout08-content-home-block5-home-garden]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[content]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[5]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="layout08-content-home-block5-home_garden em-wrapper-product-07 block-color05 row">
+<div class="em-tabs-widget tabs-widget ">
+<div id="emajaxtabs_5" class="em-tabs emajaxtabs">
+<div class="col-sm-6">
+<div class="block-left">
+<div class="block-title">
+<p class="h2">HOME &amp; GARDEN</p>
+</div>
+<ul class="tabs custom-tab">
+<li class="item tab-link active"><a href="#tab_emajaxtabs_5_1" data-hover="Tab 1" data-tab="tab_emajaxtabs_5_1">Kitchen, Dining &amp; Bar</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_5_2" data-hover="Tab 2" data-tab="tab_emajaxtabs_5_2">Home Decor</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_5_3" data-hover="Tab 3" data-tab="tab_emajaxtabs_5_3">Arts, Crafts &amp; Sewing</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_5_4" data-hover="Tab 4" data-tab="tab_emajaxtabs_5_4">Festive &amp; Party Supplies</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_5_5" data-hover="Tab 5" data-tab="tab_emajaxtabs_5_5">House Ornamestation</a></li>
+<li class="item tab-link"><a href="#tab_emajaxtabs_5_6" data-hover="Tab 6" data-tab="tab_emajaxtabs_5_6">Garden Supplies</a></li>
+</ul>
+<div class="em-effect10"><a href="#"><img class="img-responsive em-img-lazy hidden-xs" alt="" src="{{skin url='images/loading.gif'}}" data-original="{{media url='wysiwyg/em0139/layout08/home/block5_banner1.jpg'}}" /></a></div>
+</div>
+</div>
+<div class="block-right col-sm-18">
+<div class="tab-content-container">
+<div id="tab_emajaxtabs_5_1" class="tab-content active">
+<div class="block-banner hidden-xs"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block5_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="116" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 1" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_5_2" class="tab-content">
+<div class="block-banner hidden-xs"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block5_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="118" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 2" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_5_3" class="tab-content">
+<div class="block-banner hidden-xs"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block5_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="117" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 3" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_5_4" class="tab-content">
+<div class="block-banner hidden-xs"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block5_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="119" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 4" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_5_5" class="tab-content">
+<div class="block-banner hidden-xs"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block5_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="120" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 5" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+<div id="tab_emajaxtabs_5_6" class="tab-content">
+<div class="block-banner hidden-xs"><a href="#"><img class="img-responsive retina-img" alt="" src="{{media url='wysiwyg/em0139/layout08/home/block5_banner2.jpg'}}" /></a></div>
+<div class="block-products">{{widget type="minifilterproducts/listcustom" category="122" type_filter="5" limit_count="5" order_by="name asc" custom_class="tab 6" show="thumb,name,review,price,addtocart,addto" thumbnail_width="250" thumbnail_height="250" custom_theme="em_minifilterproducts/custom_main_home_content_block_grid.phtml" slider_enable="1" slider_items="3" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="3" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="1" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+      <fblock>
+        <package_theme><![CDATA[em0139/em0139_layout08]]></package_theme>
+        <title><![CDATA[EM0139 Everest Ultimate - Layout 08 Super Market 03 - Main Content - Home Block 6 - Recommendations]]></title>
+        <identifier><![CDATA[em0139-layout08-content-home-block6-recommendations]]></identifier>
+        <additional_cache_tags><![CDATA[]]></additional_cache_tags>
+        <layout_handle><![CDATA[cms_index_index]]></layout_handle>
+        <position><![CDATA[content]]></position>
+        <layout_attribute><![CDATA[]]></layout_attribute>
+        <layout_handle_2><![CDATA[]]></layout_handle_2>
+        <position_2><![CDATA[]]></position_2>
+        <layout_attribute_2><![CDATA[]]></layout_attribute_2>
+        <layout_handle_3><![CDATA[]]></layout_handle_3>
+        <position_3><![CDATA[]]></position_3>
+        <layout_attribute_3><![CDATA[]]></layout_attribute_3>
+        <custom_layout_handle><![CDATA[]]></custom_layout_handle>
+        <custom_position><![CDATA[]]></custom_position>
+        <layout_attribute_custom><![CDATA[]]></layout_attribute_custom>
+        <schedule_pattern><![CDATA[every day]]></schedule_pattern>
+        <schedule_from_time><![CDATA[]]></schedule_from_time>
+        <schedule_to_time><![CDATA[]]></schedule_to_time>
+        <category_ids><![CDATA[]]></category_ids>
+        <cms_page><![CDATA[-1]]></cms_page>
+        <order><![CDATA[6]]></order>
+        <status><![CDATA[1]]></status>
+        <display_pc><![CDATA[1]]></display_pc>
+        <display_tablet><![CDATA[1]]></display_tablet>
+        <display_mobile><![CDATA[1]]></display_mobile>
+        <content><![CDATA[<div class="em0139-layout08-content-home-block6-recommendations em-wrapper-product-07 block-color06 button-show02">
+<div class="block-title">
+<p class="h2">RECOMMENDATIONS FOR YOU</p>
+</div>
+<div class="block-content">{{widget type="minifilterproducts/list" category="102,107" type_filter="3" limit_count="6" order_by="name asc" show="thumb,name,review,price,addtocart,addto" thumbnail_width="300" thumbnail_height="300" custom_theme="em_minifilterproducts/em_grid.phtml" slider_enable="1" slider_items="4" img_lazyload="1" alt_img="thumbnail" cache_lifetime="86400" slider_items_desktop="4" slider_items_desktop_small="3" slider_items_tablet="2" slider_items_mobile="2" slider_navigation="1" slider_touch_drag="1"}}</div>
+</div>]]></content>
+        <conditions><![CDATA[a:6:{s:4:"type";s:34:"catalogrule/rule_condition_combine";s:9:"attribute";N;s:8:"operator";N;s:5:"value";s:1:"1";s:18:"is_value_processed";N;s:10:"aggregator";s:3:"all";}]]></conditions>
+        <from_date><![CDATA[]]></from_date>
+        <to_date><![CDATA[]]></to_date>
+      </fblock>
+    </flexible_block>
+    <themeframework/>
+    <megamenu>
+      <menu id="9">
+        <name><![CDATA[EM0139 Everest Ultimate - Layout 08 Super Martket 03 Store - Menu Left]]></name>
+        <identifier><![CDATA[em0139-layout08-menuleft]]></identifier>
+        <description><![CDATA[EM0139 Everest Ultimate - Layout 08 Super Martket 03 Store - Menu Left]]></description>
+        <type><![CDATA[1]]></type>
+        <status><![CDATA[1]]></status>
+        <content><![CDATA[[{"type":"link","label":"Phone & Accesories","sublabel":"","icon_url":"{{media url='em\/megamenupro\/icon\/1446401937-8_1.png'}}","url":"{{store url='fashion.html'}}","target":"","css_class":"","container_css":"background-image:url(http:\/\/farm8.staticflickr.com\/7632\/16644541718_a9bf09d186_b.jpg); background-repeat:no-repeat; background-position:right bottom;","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"","container_css":"","depth":"2"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col18 grid_18 bkg-menu01","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-24","container_css":"","depth":"4"},{"type":"text","text":"PHAgc3R5bGU9Im1hcmdpbi1ib3R0b206MjBweCI+VGhlcmUgaXMgYW4gZXhhbXBsZSBvZiBhIGxhcmdlIGNvbnRhaW5lciB3aXRoIDYgY29sdW1uczwvcD4=","css_class":"","container_css":"","depth":"5"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col18 grid_18 bkg-menu01","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-5","container_css":"","depth":"4"},{"type":"text","text":"PGg0PkphY2tldHMgJiBjb2F0czwvaDQ+CiA8dWwgY2xhc3M9Imxpc3QtdGV4dCI+CjxsaT48YSBocmVmPSIjIj5CYXRodGltZSBHb29kczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+QmVkZGluZzwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+QmxhbmtldHM8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPlNob3dlciBDdXJ0YWluczwvYT48L2xpPgo8L3VsPg==","css_class":"","container_css":"","depth":"5"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-5","container_css":"","depth":"4"},{"type":"text","text":"PGg0PkhhbmRiYWc8L2g0PgogPHVsIGNsYXNzPSJsaXN0LXRleHQiPgo8bGk+PGEgaHJlZj0iIyI+RGF5YmVkczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+SW5mYW50IENoYWlyczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+U2VjdGlvbmFsczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+U2xlZXBlciBTb2ZhczwvYT48L2xpPgo8L3VsPg==","css_class":"","container_css":"","depth":"5"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-5","container_css":"","depth":"4"},{"type":"text","text":"PGg0PkNsb3RoaW5nPC9oND4KPHVsIGNsYXNzPSJsaXN0LXRleHQiPgo8bGk+PGEgaHJlZj0iIyI+NyBGb3IgQWxsIE1hbmtpbmQ8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPkFmZmxpY3Rpb248L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPkFubmEgU3VpPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5BcmFiZWxsYTwvYT48L2xpPgo8L3VsPg==","css_class":"","container_css":"","depth":"5"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-5","container_css":"","depth":"4"},{"type":"text","text":"PGg0PlNob2VzPC9oND4KPHVsIGNsYXNzPSJsaXN0LXRleHQiPgo8bGk+PGEgaHJlZj0iIyI+VmVyc2FjZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+VGhhbGlhPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5Ub21teSBIaWxmaWdlcjwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+VG9yeSBCdXJjaDwvYT48L2xpPgo8L3VsPg==","css_class":"","container_css":"","depth":"5"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col18 grid_18 bkg-menu01","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-24","container_css":"","depth":"4"},{"type":"text","text":"PHAgc3R5bGU9Im1hcmdpbjozMnB4IDAgMTVweCI+SGVyZSBpcyBzb21lIGNvbnRlbnRzIHdpdGggc2lkZSBpbWFnZXM8L3A+","css_class":"","container_css":"","depth":"5"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col18 grid_18 bkg-menu01","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-9","container_css":"","depth":"4"},{"type":"text","text":"PGRpdiBjbGFzcz0ibWVudS1jYXRlIGVmZmVjdDAzIHpvb20taW1nIj48YSB0aXRsZT0iZW0tc2FtcGxlLXRpdGxlIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9Jyd9fWZ1cm5pdHVyZS5odG1sIj48aW1nIGNsYXNzPSJpbWctcmVzcG9uc2l2ZSIgc3JjPSJ7e3NraW4gdXJsPSdpbWFnZXMvbWVkaWEvaG9tZS9tZW51L21lbnUtaW1nMDEuanBnJ319IiBhbHQ9ImVtLXNhbXBsZS1hbHQiIC8+PC9hPjwvZGl2Pg==","css_class":"","container_css":"","depth":"5"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-11","container_css":"","depth":"4"},{"type":"text","text":"PHA+RXNwZWNpYWxseSBkZXNpZ25lZCB0byBzZXJ2ZSBmb3Igb25saW5lIHN1cGVybWFya2V0IGJ1c2luZXNzZXMsIDxzdHJvbmc+TXkgTWFya2V0PC9zdHJvbmc+IHRoZW1lIGhhcyBhIG5lYXQgYW5kIGNsZWFuIGxheW91dCB3aXRoIGJsb2NrcyBhcmUgYWxpZ25lZCBzbWFydGx5IGFuZCBtYW55IDxzdHJvbmc+RGVhbHMgbW9kdWxlczwvc3Ryb25nPiBhcmUgaW5jbHVkZWQgdG8gbW9zdCBjb21mb3J0IHZpc2l0b3JzLiBTaW1wbGUgd2hpdGUgYmFja2dyb3VuZCBpcyBlbm91Z2ggdG8gbWFrZSBwcm9kdWN0IGRpc3BsYXlzIHN0YW5kIG91dCwgYSBsb2dpY2FsIGNvbWJpbmF0aW9uIG9mIGNvbG9ycyBhbmQgdGV4dHVyZSwgdG9nZXRoZXIgd2l0aCByZWFzb25hYmxlIGFuaW1hdGlvbiBlZmZlY3QgaW1wcmVzcyB2aXNpdG9ycy4gCiAgICAgICAgQnV0IHRoZSBtb3N0IHJlbWFya2FibGUgdGhpbmcgYWJvdXQgTXkgTWFya2V0IGlzIGl0cyBwb3dlcmZ1bCBhbmQgdXNlZnVsIGZlYXR1cmVzLgogICAgICAgIDwvcD4=","css_class":"","container_css":"","depth":"5"},{"type":"link","label":"Home & Garden","sublabel":"","icon_url":"{{media url='em\/megamenupro\/icon\/1446401942-8_2.png'}}","url":"{{store url='shoe.html'}}","target":"","css_class":"","container_css":"","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col10  fix-top","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-12 alpha","container_css":"","depth":"2"},{"type":"text","text":"PGg0PlF1aXNxdWUgY29uZGltZW50dW08L2g0Pgp7e3dpZGdldCB0eXBlPSJtZWdhbWVudXByby9jYXRhbG9nbmF2aWdhdGlvbiIgY2F0ZWdvcnlfaWQ9ImNhdGVnb3J5LzEwIiBkaXJlY3Rpb249InZlcnRpY2FsIn19CjxkaXYgY2xhc3M9InBhZGRpbmctdG9wMjAiPgo8aDQ+UGVsbGVudGVzcXVlIG51bGxhPC9oND4Ke3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8xNSIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9fQo8L2Rpdj4=","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-12","container_css":"","depth":"2"},{"type":"text","text":"PGg0PlF1aXNxdWUgZ3JhdmlkYTwvaDQ+CjxkaXY+e3t3aWRnZXQgdHlwZT0ibWVnYW1lbnVwcm8vY2F0YWxvZ25hdmlnYXRpb24iIGNhdGVnb3J5X2lkPSJjYXRlZ29yeS8xMCIgZGlyZWN0aW9uPSJ2ZXJ0aWNhbCJ9fTwvZGl2Pgo8ZGl2IGNsYXNzPSJwYWRkaW5nLXRvcDIwIj4KPGg0PlBlbGxlbnRlc3F1ZSBudWxsYTwvaDQ+Cnt7d2lkZ2V0IHR5cGU9Im1lZ2FtZW51cHJvL2NhdGFsb2duYXZpZ2F0aW9uIiBjYXRlZ29yeV9pZD0iY2F0ZWdvcnkvMTUiIGRpcmVjdGlvbj0idmVydGljYWwifX0KPC9kaXY+","css_class":"","container_css":"","depth":"3"},{"type":"link","label":"Office Supplies","sublabel":"","icon_url":"{{media url='em\/megamenupro\/icon\/1446401946-8_3.png'}}","url":"{{store url='glass.html'}}","target":"","css_class":"","container_css":"background-image:url(http:\/\/farm9.staticflickr.com\/8704\/16212167333_1dfb4ccb4d_b.jpg); background-repeat:no-repeat; background-position:right bottom;","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col18 grid_18 bkg-menu01","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-5","container_css":"","depth":"2"},{"type":"text","text":"PGg0PkphY2tldHMgJiBjb2F0czwvaDQ+CiA8dWwgY2xhc3M9Imxpc3QtdGV4dCI+CjxsaT48YSBocmVmPSIjIj5CYXRodGltZSBHb29kczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+QmVkZGluZzwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+QmxhbmtldHM8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPlNob3dlciBDdXJ0YWluczwvYT48L2xpPgo8L3VsPg==","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-5","container_css":"","depth":"2"},{"type":"text","text":"PGg0PkhhbmRiYWc8L2g0PgogPHVsIGNsYXNzPSJsaXN0LXRleHQiPgo8bGk+PGEgaHJlZj0iIyI+RGF5YmVkczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+SW5mYW50IENoYWlyczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+U2VjdGlvbmFsczwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+U2xlZXBlciBTb2ZhczwvYT48L2xpPgo8L3VsPg==","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-5","container_css":"","depth":"2"},{"type":"text","text":"PGg0PkNsb3RoaW5nPC9oND4KPHVsIGNsYXNzPSJsaXN0LXRleHQiPgo8bGk+PGEgaHJlZj0iIyI+NyBGb3IgQWxsIE1hbmtpbmQ8L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPkFmZmxpY3Rpb248L2E+PC9saT4KPGxpPjxhIGhyZWY9IiMiPkFubmEgU3VpPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5BcmFiZWxsYTwvYT48L2xpPgo8L3VsPg==","css_class":"","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-5","container_css":"","depth":"2"},{"type":"text","text":"PGg0PlNob2VzPC9oND4KPHVsIGNsYXNzPSJsaXN0LXRleHQiPgo8bGk+PGEgaHJlZj0iIyI+VmVyc2FjZTwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+VGhhbGlhPC9hPjwvbGk+CjxsaT48YSBocmVmPSIjIj5Ub21teSBIaWxmaWdlcjwvYT48L2xpPgo8bGk+PGEgaHJlZj0iIyI+VG9yeSBCdXJjaDwvYT48L2xpPgo8L3VsPg==","css_class":"","container_css":"","depth":"3"},{"type":"link","label":"Women Clothing","sublabel":"","icon_url":"{{media url='em\/megamenupro\/icon\/1446401952-8_4.png'}}","url":"{{store url='baby.html'}}","target":"{{store direct_url=''}}apparel.html","css_class":"","container_css":"","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col5  fix-top","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-24 alpha","container_css":"","depth":"2"},{"type":"text","text":"PGg0PkphY2tldHMgJmFtcDsgY29hdHM8L2g0Pgo8dWwgY2xhc3M9Im1lbnUtY29udGFpbmVyIj4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSBmaXJzdCI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0iIyI+PHNwYW4+TGFuZGluZyBQYWdlPC9zcGFuPiA8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSAiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9Int7Y29uZmlnIHBhdGg9J3dlYi91bnNlY3VyZS9iYXNlX3VybCd9fWVtMDEzMS10eXBvZ3JhcGh5Ij48c3Bhbj5UeXBvZ3JhcGh5IFBhZ2U8L3NwYW4+IDwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xICI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tjb25maWcgcGF0aD0nd2ViL3Vuc2VjdXJlL2Jhc2VfdXJsLyd9fWVtMDEzMS13aWRnZXRzIj48c3Bhbj5XaWRnZXRzIFBhZ2U8L3NwYW4+IDwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIGxhYmVsLW5ldy1tZW51ICI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tjb25maWcgcGF0aD0nd2ViL3Vuc2VjdXJlL2Jhc2VfdXJsLyd9fWNvbnRhY3RzIj48c3Bhbj5Db250YWN0IFBhZ2U8L3NwYW4+IDwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIGxhc3QgIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e2NvbmZpZyBwYXRoPSd3ZWIvdW5zZWN1cmUvYmFzZV91cmwvJ319bXlldmVyeXRoaW5nIj48c3Bhbj40MDQgUGFnZTwvc3Bhbj4gPC9hPjwvbGk+CjwvdWw+","css_class":"","container_css":"","depth":"3"},{"type":"link","label":"Men Clothing","sublabel":"","icon_url":"{{media url='em\/megamenupro\/icon\/1446401957-8_5.png'}}","url":"{{store url='sport-outdoor.html'}}","target":"","css_class":"","container_css":"","depth":"0"},{"type":"hbox","width":"","height":"","spacing":"","css_class":" fix-top","container_css":"","depth":"1"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"","container_css":"","depth":"2"},{"type":"hbox","width":"","height":"","spacing":"","css_class":"col-menu menu_col18 grid_18 bkg-menu01","container_css":"","depth":"3"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-12","container_css":"","depth":"4"},{"type":"text","text":"PHAgY2xhc3M9ImltZy1jZW50ZXIiPjxhIGhyZWY9IiMiIHRpdGxlPSJlbS1zYW1wbGUtdGl0bGUiPjxpbWcgY2xhc3M9ImltZy1yZXNwb25zaXZlIiBzcmM9Int7c2tpbiB1cmw9ImltYWdlcy9tZWRpYS9ob21lL21lbnUvbG9nby1tZW51LmpwZyJ9fSIgYWx0PSJlbS1zYW1wbGUtYWx0IiAvPjwvYT48L3A+CjxwPk5vIGNvZGluZyBuZWVkZWQsIGFsbCBjYW4gYmUgZWRpdGVkIGRpcmVjdGx5IGluIGFkbWluIHBhbmVsLiBTZWxlY3QgY29sb3JzIG9mIGRvemVucyBvZiBlbGVtZW50cyB1c2luZyBjb2xvciBwaWNrZXJzLCBzZXQgaHVuZHJlZHMgb2Ygb3B0aW9ucywgYXBwbHkgdGV4dHVyZXMgZm9yIGhlYWRlciwgZm9vdGVyIGFuZCBmb3IgdGhlIGVudGlyZSBwYWdlLCB1cGxvYWQgYmFja2dyb3VuZCBpbWFnZSBhbmQgY29uZmlndXJlIGl0cyBwcm9wZXJ0aWVzIChwb3NpdGlvbiwgcmVwZWF0aW5nLCBhdHRhY2htZW50KSwgY2hhbmdlIGZvbnQgYW5kIGZvbnQtc2l6ZSwgYW5kIG1hbnkgbWFueSBtb3Jl4oCmPC9wPg==","css_class":"","container_css":"","depth":"5"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-6","container_css":"","depth":"4"},{"type":"text","text":"PGg0PkphY2tldHMgJiBjb2F0czwvaDQ+Cjx1bCBjbGFzcz0ibWVudS1jb250YWluZXIiPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIGZpcnN0IGxhYmVsLWhvdC1tZW51Ij48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J3Qtc2hpcnQtc2VxdWluLWZyaW5nZS1kcmVzcy5odG1sJ319Ij5TaW1wbGUgcHJvZHVjdDwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J3ZpcnR1YWwtcHJvZHVjdC5odG1sJ319Ij5WaXJ0dWFsIFByb2R1Y3Q8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSdkb3dubG9hZGFibGUtcHJvZHVjdC5odG1sJ319Ij5Eb3dubG9hZGFibGUgUHJvZHVjdDwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J2luay1lYXRlci1rcnlsb24tYm9tYmVhci1kZXN0cm95ZWQtdGVlLTEyNi5odG1sJ319Ij5Db25maWd1cmFibGUgUHJvZHVjdDwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J21hZ2VudG8tcmVkLWZ1cm5pdHVyZS1zZXQuaHRtbCd9fSI+R3JvdXBlZCBQcm9kdWN0PC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgbGFzdCI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSdnYW1pbmctY29tcHV0ZXIuaHRtbCd9fSI+QnVuZGxlIFByb2R1Y3Q8L2E+PC9saT4KPC91bD4=","css_class":"","container_css":"","depth":"5"},{"type":"vbox","width":"","height":"","spacing":"","css_class":"col-sm-6","container_css":"","depth":"4"},{"type":"text","text":"PGg0PkNsb3RoaW5nPC9oND4KPHVsIGNsYXNzPSJtZW51LWNvbnRhaW5lciI+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgZmlyc3QiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nbWV0YWxsaWMtbWlkaS1jdXQtb3V0LW1pZGktZHJlc3MuaHRtbCd9fSI+MSBDb2x1bW48L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSAiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nbW9ua2ktbWV0YWxsaWMtdC1zaGlydC5odG1sJ319Ij4yIENvbHVtbnMgTGVmdDwvYT48L2xpPgo8bGkgY2xhc3M9Im1lbnUtaXRlbS1saW5rIG1lbnUtaXRlbS1kZXB0aC0xICI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSdyaXZlci1pc2xhbmQtdmVzdC5odG1sJ319Ij4yIENvbHVtbnMgUmlnaHQ8L2E+PC9saT4KPGxpIGNsYXNzPSJtZW51LWl0ZW0tbGluayBtZW51LWl0ZW0tZGVwdGgtMSAiPjxhIGNsYXNzPSJlbS1tZW51LWxpbmsiIGhyZWY9Int7c3RvcmUgZGlyZWN0X3VybD0nbW9tbXktcy1saXR0bGUtc3Vuc2hpbmUuaHRtbCd9fSI+MyBDb2x1bW5zPC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgIj48YSBjbGFzcz0iZW0tbWVudS1saW5rIiBocmVmPSJ7e3N0b3JlIGRpcmVjdF91cmw9J2RyYXBlLWJhY2stcGxheXN1aXQuaHRtbCd9fSI+VXBzZWxsPC9hPjwvbGk+CjxsaSBjbGFzcz0ibWVudS1pdGVtLWxpbmsgbWVudS1pdGVtLWRlcHRoLTEgbGFzdCI+PGEgY2xhc3M9ImVtLW1lbnUtbGluayIgaHJlZj0ie3tzdG9yZSBkaXJlY3RfdXJsPSd0LXNoaXJ0LXNlcXVpbi1mcmluZ2UtZHJlc3MuaHRtbCd9fSI+UmVsYXRlZCBQcm9kdWN0PC9hPjwvbGk+CjwvdWw+","css_class":"","container_css":"","depth":"5"},{"type":"link","label":"Healthy & Beauty","sublabel":"","icon_url":"{{media url='em\/megamenupro\/icon\/1446401964-8_6.png'}}","url":"{{store url='swatch.html'}}","target":"","css_class":"","container_css":"","depth":"0"},{"type":"link","label":"Baby & Mom","sublabel":"","icon_url":"{{media url='em\/megamenupro\/icon\/1446401969-8_7.png'}}","url":"{{store url='jewelry.html'}}","target":"","css_class":"hidden-sm","container_css":"","depth":"0"},{"type":"link","label":"Jewelery & Watches","sublabel":"","icon_url":"{{media url='em\/megamenupro\/icon\/1446401973-8_8.png'}}","url":"{{store url='home-garden.html'}}","target":"","css_class":"hidden-sm","container_css":"","depth":"0"},{"type":"link","label":"Sport & Outdoor","sublabel":"","icon_url":"{{media url='em\/megamenupro\/icon\/1446401978-8_9.png'}}","url":"{{store url='beauty.html'}}","target":"","css_class":"hidden-sm hidden-md","container_css":"","depth":"0"},{"type":"link","label":"Accessories","sublabel":"","icon_url":"{{media url='em\/megamenupro\/icon\/1446401982-8_10.png'}}","url":"","target":"","css_class":"hidden-sm hidden-md","container_css":"","depth":"0"}]]]></content>
+        <css_class><![CDATA[em-menu-icon effect-menu em-menu-long]]></css_class>
+      </menu>
+    </megamenu>
+    <minislideshows>
+      <minislideshow id="7">
+        <name><![CDATA[EM0139 - Layout 08 Super Market 03 - Main Slideshow]]></name>
+        <identifier><![CDATA[em0139-layout08-main-slideshow]]></identifier>
+        <images><![CDATA[[{"url":"1444814933_0_slide1.jpg","link":"furniture.html","info":[{"text":"\u003Cdiv style=\"position:absolute; left:5%;top:20%;text-align:left \"\u003E\u003Cp\u003E\u003Cimg src=\"{{skin url='images\/slideshow\/8_1.png'}}\" alt=\"\" \/\u003E\u003C\/p\u003E\r\n\u003Ca href=\"#\" class=\"button-link\"\u003Eshop now\u003Cspan class=\"arrow\"\u003E\u003C\/span\u003E\u003C\/a\u003E\u003C\/div\u003E","animation":"none"}]},{"url":"1444814933_1_slide2.jpg","link":"apparel.html","info":[{"text":"\u003Cdiv style=\"position:absolute; left:25%;top:20%;text-align:center \"\u003E\u003Cp\u003E\u003Cimg src=\"{{skin url='images\/slideshow\/8_2.png'}}\" alt=\"\" \/\u003E\u003C\/p\u003E\r\n\u003Ca href=\"#\" class=\"button-link\"\u003Eshop now\u003Cspan class=\"arrow\"\u003E\u003C\/span\u003E\u003C\/a\u003E\u003C\/div\u003E","animation":"fadeInDown"}]}]]]></images>
+        <slider_params><![CDATA[{"size_width":"900","size_height":"500"}]]></slider_params>
+        <appearance><![CDATA[{"auto_play":"true","animation_type":"fade","speed":"500","hover_pause":"true","progress_bar":"false","lazy_load":"true"}]]></appearance>
+        <navigation><![CDATA[{"nav_enable":"true","nav_type":["navigation:true"],"arrows_next":"","arrows_pre":"","thumb_width":"","thumb_height":""}]]></navigation>
+        <status><![CDATA[1]]></status>
+      </minislideshow>
+    </minislideshows>
+  </sample_data>
+</theme>

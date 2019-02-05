@@ -1,0 +1,47 @@
+<div class="layout04-area01-mainslideshow">
+<div class="em-owlcarousel-slideshow">
+    <div id="em_owlcarousel_2_2621_sync1" class="owl-carousel">
+                            <div class="item"> 
+                <a href="">
+                                            <img alt="1549137494_0_bg_01.jpg" class="lazyOwl img-responsive" src="http://luvik.net/cabal/skin/frontend/em0139/em0139_layout04/images/loading.gif" data-src="http://luvik.net/cabal/media/em_minislideshow/1549137494_0_bg_01.jpg"/>
+                                            
+                </a>
+                <div class="em-owlcarousel-description">
+                                            <div class="fadeInDown em-owlcarousel-des em-owlcarousel-des-0">
+                            <div style="position:absolute; right:10%;top:23%;text-align:right" ><p></p></div>                        </div>
+                                    </div>
+            </div>
+                                <div class="item"> 
+                <a href="apparel.html">
+                                            <img alt="1549137494_1_bg_2.jpg" class="lazyOwl img-responsive" src="http://luvik.net/cabal/skin/frontend/em0139/em0139_layout04/images/loading.gif" data-src="http://luvik.net/cabal/media/em_minislideshow/1549137494_1_bg_2.jpg"/>
+                                            
+                </a>
+                <div class="em-owlcarousel-description">
+                                            <div class="none em-owlcarousel-des em-owlcarousel-des-1">
+                            <div style="position:absolute; left:10%;top:23%;text-align:left" ><p></p></div>                        </div>
+                                    </div>
+            </div>
+                     
+    </div>
+    </div>
+<script type="text/javascript">
+(function($) {
+	$(document).ready(function() {		
+		var sync1 = $('#em_owlcarousel_2_2621_sync1');		
+		sync1.owlCarousel({
+			singleItem: true,
+            responsiveRefreshRate: 200,
+            paginationSpeed : 2000,
+            rewindSpeed : 1000,
+            			lazyLoad: true,
+			slideSpeed: 200,
+            navigation:true,            navigationText : ["Pre", "Next"],
+            			
+            transitionStyle : 'fade',
+            autoPlay : true,
+		});
+        		
+        	});
+})(jQuery);
+</script>	
+</div>

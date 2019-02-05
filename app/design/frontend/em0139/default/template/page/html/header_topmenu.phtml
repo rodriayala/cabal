@@ -1,0 +1,20 @@
+<?php if($this->getChildHtml('headerMenuLeft')):?>
+	<?php if(strpos(Mage::getSingleton('cms/page')->getIdentifier(), 'home') === false  && Mage::app()->getFrontController()->getRequest()->getRouteName() != 'cms'):?>
+	<div class="top-menu-left text-left menu-wrapper">
+		<div id="menuleftText" class="all_categories">
+			<div class="menuleftText-title">
+				<div class="menuleftText"><span><?php echo $this->__("Mega Menu") ?></span></div>
+			</div>
+		</div>
+		<div class="menuleft">
+			<div id="menu-default" class="mega-menu"><?php echo $this->getChildHtml('headerMenuLeft') ?></div>
+		</div>
+	</div>
+
+	<div class="em-menu-hoz f-right">
+		<div id="em-main-megamenu">
+			<?php echo $this->getChildHtml('headerMenuLeft');?>
+		</div>
+	</div>
+	<?php endif ?>
+<?php endif ?>

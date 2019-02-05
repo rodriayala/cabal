@@ -1,0 +1,38 @@
+<div id="loader-wrapper">
+    <img class="logo_loader" src="<?php echo $this->getSKinUrl('images/em_logo_loading.png'); ?>" alt="" />
+    <div id="loader"></div> 
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        $_wrapper = jQuery('.wrapper');
+        $_wrapper.addClass('em-wrapper-loading');
+        setTimeout(function(){
+            $_body = jQuery('body');
+        	$_body.addClass('loaded');
+        }, 1000);   	
+    });
+/*
+    jQuery(document).ready(function() {
+        var now = new Date();
+        var time = now.getTime();
+        var expireTime = time + <?php echo Mage::getStoreConfig('web/cookie/cookie_lifetime')*1000; ?>;
+        now.setTime(expireTime);
+        
+        if(!Mage.Cookies.get("emloading"))
+        {
+            document.cookie = 'emloading=true;expires='+now.toGMTString();            
+            $_wrapper = jQuery('.wrapper');
+            $_wrapper.addClass('em-wrapper-loading');
+            setTimeout(function(){
+                $_body = jQuery('body');
+            	$_body.addClass('loaded');
+            }, 1500);
+        }else{
+            $_loaded = jQuery('#em-loader-wrapper');
+            $_loaded.remove();                       
+        }   	
+    });
+*/
+</script>
