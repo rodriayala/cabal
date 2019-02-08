@@ -31,6 +31,7 @@
  * @package     Mage_Checkout
  * @author      Magento Core Team <core@magentocommerce.com>
  */
+/* rodrigo*/
 class EM_Multidealpro_Block_Links extends Mage_Core_Block_Template
 {
     /**
@@ -43,8 +44,8 @@ class EM_Multidealpro_Block_Links extends Mage_Core_Block_Template
         $parentBlock = $this->getParentBlock();
         if ($parentBlock && Mage::helper('multidealpro')->checkEnable() == 1) {
 			if (Mage::helper('multidealpro')->getGeneral_DisplayHeader() == 1) {
-                $text = $this->__('Active Deals');
-
+               // $text = $this->__('Active Deals');
+              $text = $this->__('Cabalgatas');
 				$parentBlock->addLink($text, 'multidealpro', $text, true, array(), 50, null, 'class="top-link-deal"');
 			}
 		}

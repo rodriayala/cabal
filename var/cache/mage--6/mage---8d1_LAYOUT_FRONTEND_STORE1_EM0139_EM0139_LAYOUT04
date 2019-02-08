@@ -5892,8 +5892,8 @@
       <action method="addCrumb">
          <crumbName>active_deals</crumbName>
          <crumbInfo>
-            <label>Active Deals</label>
-            <title>Active Deals</title>
+            <label>Cabalgatas</label>
+            <title>Cabalgatas</title>
          </crumbInfo>
       </action>
    </reference>

@@ -1,4 +1,4 @@
-<div class="em_menu_default_4626">
+<div class="em_menu_default_2617">
     <div class="nav-container em_nav">
     	<ul class="hnav">
     		<li class=" menu-item-text menu-item-depth-0">
@@ -10,10 +10,10 @@
 </div>
 <script type="text/javascript">
 //<![CDATA[
-   function toogleMenuDefault_em_menu_default_4626(){
+   function toogleMenuDefault_em_menu_default_2617(){
        var $=jQuery;
        var wi = $(window).width();  
-       var wrapperMenu = $(".em_menu_default_4626");
+       var wrapperMenu = $(".em_menu_default_2617");
        if(EM.SETTING.DISABLE_RESPONSIVE != 0){
            if( (wi <= 767 || isPhone == true) ){
                wrapperMenu.addClass('em-menu-mobile');
@@ -26,12 +26,12 @@
    };
    
    jQuery(document).ready(function(){
-        toogleMenuDefault_em_menu_default_4626();
+        toogleMenuDefault_em_menu_default_2617();
    });
    
    jQuery(window).bind('resize orientationchange', function() {
        if(EM.SETTING.DISABLE_RESPONSIVE != 0){
-            toogleMenuDefault_em_menu_default_4626();
+            toogleMenuDefault_em_menu_default_2617();
        }
    });
 //]]>

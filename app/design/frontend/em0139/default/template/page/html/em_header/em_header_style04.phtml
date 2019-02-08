@@ -59,7 +59,7 @@
 										</li>
 									<?php else:?>
 										<li class="first col-xs-8">
-											<a title="<?php echo $this->__('Log In')?>" class="login-link fa fa-user" href="<?php echo $this->getBaseUrl()?>customer/account/login/" ><span><?php echo $this->__('Log In') ?></span></a>
+											<a title="<?php echo $this->__('Log In')?>" class="login-link fa fa-user" href="<?php echo $this->getBaseUrl()?>customer/account/login/" ><span><?php echo "Ingresar";//$this->__('Log In') ?></span></a>
 										</li>
 										<li class="col-xs-8">
 											<a title="<?php echo $this->__('Sign up')?>" class='signup-link fa fa-sign-out' href=" <?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/create' ?>"><span><?php echo $this->__('Sign up')?></span></a>
@@ -173,7 +173,7 @@
                             </ul>
                             <div id="em-login-link" class="account-link f-right <?php if (Mage::getSingleton('customer/session')->isLoggedIn()==0): ?>em-non-login<?php else:?>em-logged<?php endif;?>">
                                 <?php if (Mage::getSingleton('customer/session')->isLoggedIn()==0): ?>
-                                    <a href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/login/'; ?>" class="link-account" id="link-login" title="<?php echo $this->__('Login') ?>"><?php echo $this->__('Login') ?></a>   
+                                    <a href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/login/'; ?>" class="link-account" id="link-login" title="<?php echo $this->__('Login') ?>"><?php echo "Ingresar";//$this->__('Login') ?></a>   
                                     <?php if(Mage::helper('themeframework/settings')->getGeneral_DisableHoverLogin()!=0 && !Mage::helper('themeframework/settings')->checkMobilePhp()): ?>         
                                         <?php $login = new Mage_Customer_Block_Form_Login(); ?>                
                                         <div class="em-account" id="em-account-login-form" style="display: none;">                
@@ -183,7 +183,7 @@
                                                     <p class="login-title h6 primary"><?php echo $this->__('Login') ?></p>
                                                     <p class="login-desc"><?php echo $this->__('If you have an account with us, please log in.') ?></p>
                                                     <ul class="form-list">
-                                                        <li><label for="mini-login"><?php echo $this->__('Email Address') ?><em><?php echo $this->__('*') ?></em></label>
+                                                        <li><label for="mini-login"><?php echo $this->__('Correo Electronico') ?><em><?php echo $this->__('*') ?></em></label>
                                                             <input type="text" name="login[username]" id="mini-login" class="input-text required-entry validate-email" />
                                                         </li>
                                                         <li><label for="mini-password"><?php echo $this->__('Password') ?><em><?php echo $this->__('*') ?></em></label>
