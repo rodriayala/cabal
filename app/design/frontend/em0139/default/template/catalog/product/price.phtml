@@ -241,7 +241,7 @@
 
         <?php if ($_weeeTaxAmount && $_weeeHelper->typeOfDisplay($_product, 0)): // including ?>
             <p class="old-price">
-                <span class="price-label"><?php echo $this->__('Regular Price:') ?></span>
+                <span class="price-label"><?php echo $this->__('Precio Regular:') ?></span>
                 <span class="price" id="old-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
                     <?php echo $_coreHelper->formatPrice($_regularPrice + $_originalWeeeTaxAmount, false) ?>
                 </span>
@@ -275,7 +275,7 @@
 
         <?php elseif ($_weeeTaxAmount && $_weeeHelper->typeOfDisplay($_product, 1)): // incl. + weee ?>
             <p class="old-price">
-                <span class="price-label"><?php echo $this->__('Regular Price:') ?></span>
+                <span class="price-label"><?php echo $this->__('Precio Regular:') ?></span>
                 <span class="price" id="old-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
                     <?php echo $_coreHelper->formatPrice($_regularPrice + $_originalWeeeTaxAmount, false) ?>
                 </span>
@@ -306,7 +306,7 @@
                 </span>
             <?php else: ?>
                 <p class="special-price">
-                    <span class="price-label"><?php echo $this->__('Special Price:') ?></span>
+                    <span class="price-label"><?php echo $this->__('Precio Especial:') ?></span>
                 <span class="price"<?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?> itemprop="price" <?php endif; ?> content="<?php echo ($_finalPrice + $_weeeTaxAmountInclTaxes); ?>" id="product-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
                     <?php echo $_coreHelper->formatPrice($_finalPrice + $_weeeTaxAmountInclTaxes, false) ?>
                 </span>
@@ -323,7 +323,7 @@
             </p>
         <?php elseif ($_weeeTaxAmount && $_weeeHelper->typeOfDisplay($_product, 4)): // incl. + weee ?>
             <p class="old-price">
-                <span class="price-label"><?php echo $this->__('Regular Price:') ?></span>
+                <span class="price-label"><?php echo $this->__('Precio Regular:') ?></span>
                 <span class="price" id="old-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
                     <?php echo $_coreHelper->formatPrice($_regularPrice + $_originalWeeeTaxAmount, false) ?>
                 </span>
@@ -353,7 +353,7 @@
             </p>
         <?php elseif ($_weeeTaxAmount && $_weeeHelper->typeOfDisplay($_product, 2)): // excl. + weee + final ?>
             <p class="old-price">
-                <span class="price-label"><?php echo $this->__('Regular Price:') ?></span>
+                <span class="price-label"><?php echo $this->__('Precio Regular:') ?></span>
                 <span class="price" id="old-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
                     <?php echo $_coreHelper->formatPrice($_regularPrice, false) ?>
                 </span>
@@ -382,7 +382,7 @@
             </p>
         <?php else: // excl. ?>
             <p class="old-price">
-                <span class="price-label"><?php echo $this->__('Regular Price:') ?></span>
+                <span class="price-label"><?php echo $this->__('Precio Regular:') ?></span>
                 <span class="price" id="old-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
                     <?php echo $_coreHelper->formatPrice($_regularPrice, false) ?>
                 </span>
@@ -429,7 +429,7 @@
         <?php else: ?>
             <span class="minimal-price-link">
         <?php endif ?>
-        <span class="label"><?php echo $this->__('As low as:') ?></span>
+        <span class="label"><?php echo $this->__('Es igual a:') ?></span>
         <span class="price" id="product-minimal-price-<?php echo $_id ?><?php echo $this->getIdSuffix() ?>">
                 <?php echo $_coreHelper->formatPrice($_minimalPriceDisplayValue, false) ?>
             </span>
@@ -458,7 +458,7 @@
         <div class="price-box">
             <p<?php if ($showMinPrice): ?> class="minimal-price"<?php endif ?>>
                 <?php if ($showMinPrice): ?>
-                    <span class="price-label"><?php echo $this->__('Starting at:') ?></span>
+                    <span class="price-label"><?php echo $this->__('Empezando en:') ?></span>
                 <?php endif ?>
                 <?php if ($_taxHelper->displayBothPrices()): ?>
                     <span class="price-excluding-tax">

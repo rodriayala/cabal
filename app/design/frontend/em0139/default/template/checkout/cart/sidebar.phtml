@@ -43,23 +43,23 @@
     	    }
         ?>
     	<div class="em-summary-topcart">
-			<a class="em-amount-js-topcart em-amount-topcart" title="<?php echo $this->__('Shopping Cart');?>" href="<?php echo $this->getUrl('checkout/cart') ?>">
-                <span class="em-topcart-text"><?php echo $this->__('My Cart'),':' ?></span>
+			<a class="em-amount-js-topcart em-amount-topcart" title="<?php echo $this->__('Carrito de compra');?>" href="<?php echo $this->getUrl('checkout/cart') ?>">
+                <span class="em-topcart-text"><?php echo $this->__('Mi Carrito'),':' ?></span>
                 <span class="em-topcart-qty"><?php echo $_cartQty ?></span>
             </a>
 		</div>
 
 		<div class="em-container-js-topcart topcart-popup" style="display:none">
 			<div class="topcart-popup-content">
-				<p class="em-block-subtitle"><?php echo $this->__('Shopping Cart');?></p>
+				<p class="em-block-subtitle"><?php echo $this->__('Carrito de compra');?></p>
 				<div class="topcart-content">
 					<p class="amount-content ">
 						<?php if ($_cartQty==0): ?>
-							<?php echo $this->__('You have no items in your shopping cart.') ?>
+							<?php echo $this->__('No tiene artículos en su carrito de compras.') ?>
 						<?php elseif ($_cartQty==1): ?>
-							<?php echo $this->__('There is <a href="%s">1 item</a> in your shopping cart.', $this->getUrl('checkout/cart')) ?>
+							<?php echo $this->__('Hay <a href="%s">1 item</a> en tu Carrito.', $this->getUrl('checkout/cart')) ?>
 						<?php else: ?>
-							<?php echo $this->__('There are <a href="%s">%s items</a> in your shopping cart.', $this->getUrl('checkout/cart'), $_cartQty) ?>
+							<?php echo $this->__('Hay <a href="%s">%s items</a> CArrito.', $this->getUrl('checkout/cart'), $_cartQty) ?>
 						<?php endif ?>
 					</p>
 					<?php if ($_cartQty > 0): ?>
@@ -77,9 +77,9 @@
 				<div class="actions">
 					<p class="subtotal">
 						<?php if ($this->canApplyMsrp()): ?>
-							<span class="map-cart-sidebar-total"><?php echo $this->__('ORDER TOTAL WILL BE DISPLAYED BEFORE YOU SUBMIT THE ORDER'); ?></span>
+							<span class="map-cart-sidebar-total"><?php echo $this->__('EL TOTAL DEL PEDIDO SERÁ VISUALIZADO ANTES DE QUE ENVÍE EL PEDIDO'); ?></span>
 						<?php else: ?>
-							<span class="label"><?php echo $this->__('Cart Subtotal') ?></span> <?php echo Mage::helper('checkout')->formatPrice($this->getSubtotal()) ?>
+							<span class="label"><?php echo $this->__('Carrito Subtotal') ?></span> <?php echo Mage::helper('checkout')->formatPrice($this->getSubtotal()) ?>
 							<?php if ($_subtotalInclTax = $this->getSubtotalInclTax()): ?>
 								<br />(<?php echo Mage::helper('checkout')->formatPrice($_subtotalInclTax) ?> <?php echo Mage::helper('tax')->getIncExcText(true) ?>)
 							<?php endif; ?>

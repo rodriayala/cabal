@@ -33,7 +33,7 @@
 ?>
 <div class="account-create">
     <div class="page-title">
-        <h1><?php echo $this->__('Create an Account') ?></h1>
+        <h1><?php echo $this->__('Crear una Cuenta') ?></h1>
     </div>
     <?php echo $this->getChildHtml('form_fields_before')?>
     <?php echo $this->getMessagesBlock()->toHtml() ?>
@@ -44,7 +44,7 @@
             <input type="hidden" name="success_url" value="<?php echo $this->getSuccessUrl() ?>" />
             <input type="hidden" name="error_url" value="<?php echo $this->getErrorUrl() ?>" />
             <input type="hidden" name="form_key" value="<?php echo Mage::getSingleton('core/session')->getFormKey() ?>" />
-            <h2 class="legend"><?php echo $this->__('Personal Information') ?></h2>
+            <h2 class="legend"><?php echo $this->__('Informacion Personal') ?></h2>
             <ul class="form-list">
                 <li class="fields">
                     <?php echo $this->getLayout()->createBlock('customer/widget_name')->setObject($this->getFormData())->setForceUseCustomerAttributes(true)->toHtml() ?>
@@ -155,7 +155,7 @@
         </div>
     <?php endif; ?>
         <div class="fieldset">
-            <h2 class="legend"><?php echo $this->__('Login Information') ?></h2>
+            <h2 class="legend"><?php echo $this->__('Informacion de Ingreso') ?></h2>
             <ul class="form-list">
                 <li class="fields">
                     <div class="field">

@@ -26,6 +26,7 @@
 /**
  * @var Mage_Page_Block_Html_Header $this
  */
+/*rodrigo*/
 ?>
 <div id="em-mheader" class="visible-xs container">
     <div id="em-mheader-top" class="row">
@@ -52,17 +53,17 @@
 								<ul class="top-header-link links">
 									<?php if (Mage::getSingleton('customer/session')->isLoggedIn()!=0): ?> 
 										<li class="first col-xs-8">
-											<a title="<?php echo $this->__('My Account')?>" class="account-link fa fa-user" href="<?php echo $this->getBaseUrl()?>customer/account/" ><span><?php echo $this->__('My Account') ?></span></a>
+											<a title="<?php echo $this->__('My Account')?>" class="account-link fa fa-user" href="<?php echo $this->getBaseUrl()?>customer/account/" ><span><?php echo $this->__('Mi Cuenta') ?></span></a>
 										</li>
 										<li class="col-xs-8">
-											<a title="<?php echo $this->__('Log out')?>" class='account-link fa fa-sign-out' href=" <?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/logout' ?>"><span><?php echo $this->__('Log out')?></span></a>
+											<a title="<?php echo $this->__('Log out')?>" class='account-link fa fa-sign-out' href=" <?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/logout' ?>"><span><?php echo $this->__('Salir')?></span></a>
 										</li>
 									<?php else:?>
 										<li class="first col-xs-8">
 											<a title="<?php echo $this->__('Log In')?>" class="login-link fa fa-user" href="<?php echo $this->getBaseUrl()?>customer/account/login/" ><span><?php echo "Ingresar";//$this->__('Log In') ?></span></a>
 										</li>
 										<li class="col-xs-8">
-											<a title="<?php echo $this->__('Sign up')?>" class='signup-link fa fa-sign-out' href=" <?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/create' ?>"><span><?php echo $this->__('Sign up')?></span></a>
+											<a title="<?php echo $this->__('Sign up')?>" class='signup-link fa fa-sign-out' href=" <?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/create' ?>"><span><?php echo $this->__('Ingresar')?></span></a>
 										</li>
 									<?php endif;?>		
 									<li class="last col-xs-8">
@@ -189,11 +190,11 @@
                                                         <li><label for="mini-password"><?php echo $this->__('Password') ?><em><?php echo $this->__('*') ?></em></label>
                                                             <input type="password" name="login[password]" id="mini-password" class="input-text required-entry validate-password" />
                                                         </li>  
-                                                        <li><span class="required"><?php echo $this->__('* Required Fields') ?></span></li>
+                                                        <li><span class="required"><?php echo $this->__('* Campos Obligatorios') ?></span></li>
                                                     </ul>
                                                     <div class="action-forgot">
                                                         <div class="login_forgotpassword">
-                                                            <p><a href="<?php echo $login->getForgotPasswordUrl() ?>"><?php echo $this->__('Forgot Your Password?') ?></a></p>
+                                                            <p><a href="<?php echo $login->getForgotPasswordUrl() ?>"><?php echo $this->__('¿Perdiste tu Clave?') ?></a></p>
                                                             <p><span><?php echo $this->__("Don't have an account?") ?></span><a class="create-account-link-wishlist" href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK).'customer/account/create/'; ?>" title="<?php echo $this->__('Sign Up') ?>"><?php echo $this->__("Sign Up") ?></a></p>
                                                         </div>
                                                         <div class="actions">

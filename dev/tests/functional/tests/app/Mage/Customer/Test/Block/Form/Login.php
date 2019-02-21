@@ -43,7 +43,7 @@ class Login extends Form
     protected $loginButton = '#send2';
 
     /**
-     * Selector for 'Create an Account' button.
+     * Selector for 'Crear una Cuenta' button.
      *
      * @var string
      */
@@ -72,7 +72,7 @@ class Login extends Form
     }
 
     /**
-     * Click on 'Create an Account' button.
+     * Click on 'Crear una Cuenta' button.
      *
      * @return void
      */

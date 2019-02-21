@@ -23,11 +23,12 @@
  * @copyright   Copyright (c) 2006-2015 X.commerce, Inc. (http://www.magento.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
+/*rodrigo*/
 ?>
 <?php if ($this->getCheckout()->getStepData('shipping', 'complete')): ?>
 <?php $completeClass = $this->getCheckout()->getStepData('shipping', 'complete') ? 'complete' : ''; ?>
 <dt class="<?php echo $completeClass ?>">
-    <span><?php echo $this->__('Shipping Address') ?></span>
+    <span><?php echo $this->__('Direccion de Envio') ?></span>
 </dt>
 <dd class="<?php echo $completeClass ?>">
     <?php if ($this->getCheckout()->getStepData('shipping', 'complete')): ?>
@@ -39,7 +40,7 @@
 </dd>
 <?php else: ?>
 <dt>
-    <?php echo $this->__('Shipping Address') ?>
+    <?php echo $this->__('Direccion de Envio') ?>
 </dt>
 <?php endif; ?>
 

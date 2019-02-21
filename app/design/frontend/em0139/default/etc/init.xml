@@ -908,7 +908,7 @@
 </div>
 <div id="collapse02" class="em-block-content">
 <ul class="em-links">
-<li class="em-links-item"><a title="em-sample-title" href="{{store url='customer/account/create/'}}"><span>Create an Account</span></a></li>
+<li class="em-links-item"><a title="em-sample-title" href="{{store url='customer/account/create/'}}"><span>Crear una Cuenta</span></a></li>
 <li class="em-links-item"><a title="em-sample-title" href="#"><span>Making Payments</span></a></li>
 <li class="em-links-item"><a title="em-sample-title" href="#"><span>Delivery Options</span></a></li>
 <li class="em-links-item"><a title="em-sample-title" href="#"><span>Buyer Protection</span></a></li>

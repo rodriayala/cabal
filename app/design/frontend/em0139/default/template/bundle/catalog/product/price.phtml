@@ -23,6 +23,7 @@
  * @copyright   Copyright (c) 2006-2015 X.commerce, Inc. (http://www.magento.com)
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
+/*rodrigo*/
 ?>
 <?php
 /**
@@ -84,10 +85,10 @@ if ($_product->getPriceType() == 1) {
 <div class="price-box">
         <?php if ($_product->getPriceView()): ?>
             <p class="minimal-price">
-                <span class="price-label"><?php echo $this->__('As low as') ?>:</span>
+                <span class="price-label"><?php echo $this->__('Tan bajo como') ?>:</span>
                 <?php if ($this->displayBothPrices()): ?>
                     <span class="price-excluding-tax">
-                        <span class="label"><?php echo $_taxHelper->__('Excl. Tax:') ?></span>
+                        <span class="label"><?php echo $_taxHelper->__('Excl. Imp:') ?></span>
                         <?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?><span itemprop="lowPrice" content="<?php echo $_coreHelper->currency($_minimalPriceTax) ?>"><?php endif; ?><?php echo $_coreHelper->currency($_minimalPriceTax) ?><?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?></span><meta itemprop="highPrice" content="<?php echo $_coreHelper->currency($_minimalPriceTax) ?>"><?php endif; ?>
                     </span>
                     <?php if ($_weeeTaxAmount && $_product->getPriceType() == 1 && $_weeeHelper->typeOfDisplay($_product, array(2, 1, 4))): ?>
@@ -106,7 +107,7 @@ if ($_product->getPriceType() == 1) {
                         </small>)</span>
                     <?php endif; ?>
                     <span class="price-including-tax">
-                        <span class="label"><?php echo $_taxHelper->__('Incl. Tax:') ?></span>
+                        <span class="label"><?php echo $_taxHelper->__('Incl. Imp.:') ?></span>
                         <?php echo $_coreHelper->currency($_minimalPriceInclTax) ?>
                     </span>
             <?php else: ?>
@@ -138,10 +139,10 @@ if ($_product->getPriceType() == 1) {
         <?php else: ?>
             <?php if ($_minimalPriceTax <> $_maximalPriceTax): ?>
             <p class="price-from">
-                <span class="price-label"><?php echo $this->__('From') ?>:</span>
+                <span class="price-label"><?php echo $this->__('Desde') ?>:</span>
                 <?php if ($this->displayBothPrices()): ?>
                     <?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?><span class="price-excluding-tax" itemprop="lowPrice" content="<?php echo $_minimalPriceTax; ?>"><?php endif; ?><?php echo $_coreHelper->currency($_minimalPriceTax) ?><?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?></span><?php endif; ?>
-                        <span class="label"><?php echo $_taxHelper->__('Excl. Tax:') ?></span>
+                        <span class="label"><?php echo $_taxHelper->__('Excl. Imp.:') ?></span>
                         <?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?><span itemprop="price"><?php endif; ?><?php echo $_coreHelper->currency($_minimalPriceTax) ?><?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?></span><?php endif; ?>
                     </span>
                     <?php if ($_weeeTaxAmount && $_product->getPriceType() == 1 && $_weeeHelper->typeOfDisplay($_product, array(2, 1, 4))): ?>
@@ -160,7 +161,7 @@ if ($_product->getPriceType() == 1) {
                         </small>)</span>
                     <?php endif; ?>
                     <span class="price-including-tax">
-                        <span class="label"><?php echo $_taxHelper->__('Incl. Tax:') ?></span>
+                        <span class="label"><?php echo $_taxHelper->__('Incl. Imp.:') ?></span>
                         <?php echo $_coreHelper->currency($_minimalPriceInclTax) ?>
                     </span>
                 <?php else: ?>
@@ -190,10 +191,10 @@ if ($_product->getPriceType() == 1) {
                 <?php endif; ?>
             </p>
                 <p class="price-to">
-                    <span class="price-label"><?php echo $this->__('To') ?>:</span>
+                    <span class="price-label"><?php echo $this->__('Hasta') ?>:</span>
                     <?php if ($this->displayBothPrices()): ?>
                         <span class="price-excluding-tax">
-                            <span class="label"><?php echo $_taxHelper->__('Excl. Tax:') ?></span>
+                            <span class="label"><?php echo $_taxHelper->__('Excl. Imp.:') ?></span>
                         <?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?><span itemprop="highPrice" content="<?php echo $_maximalPriceTax; ?>"><?php endif; ?><?php echo $_coreHelper->currency($_maximalPriceTax) ?><?php if(!in_array($idSuffix, $idSuffixArray) && $_isPP): ?></span><?php endif; ?>
                         </span>
                         <?php if ($_weeeTaxAmount && $_product->getPriceType() == 1 && $_weeeHelper->typeOfDisplay($_product, array(2, 1, 4))): ?>
@@ -212,7 +213,7 @@ if ($_product->getPriceType() == 1) {
                             </small>)</span>
                         <?php endif; ?>
                         <span class="price-including-tax">
-                            <span class="label"><?php echo $_taxHelper->__('Incl. Tax') ?></span>
+                            <span class="label"><?php echo $_taxHelper->__('Incl. Imp.') ?></span>
                             <?php echo $_coreHelper->currency($_maximalPriceInclTax) ?>
                         </span>
                     <?php else: ?>
@@ -244,7 +245,7 @@ if ($_product->getPriceType() == 1) {
             <?php else: ?>
                 <?php if ($this->displayBothPrices()): ?>
                     <span class="price-excluding-tax">
-                        <span class="label"><?php echo $_taxHelper->__('Excl. Tax:') ?></span>
+                        <span class="label"><?php echo $_taxHelper->__('Excl. Imp.:') ?></span>
 			<?php echo $_coreHelper->currency($_minimalPriceTax) ?>
                         <meta itemprop="lowPrice" content="<?php echo $_minimalPriceTax; ?>">
                         <meta itemprop="highPrice" content="<?php echo $_maximalPriceTax; ?>">
@@ -265,7 +266,7 @@ if ($_product->getPriceType() == 1) {
                         </small>)</span>
                     <?php endif; ?>
                     <span class="price-including-tax">
-                        <span class="label"><?php echo $_taxHelper->__('Incl. Tax:') ?></span>
+                        <span class="label"><?php echo $_taxHelper->__('Incl. Imp.:') ?></span>
                         <?php echo $_coreHelper->currency($_minimalPriceInclTax) ?>
                     </span>
                 <?php else: ?>

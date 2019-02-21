@@ -2394,7 +2394,7 @@ Fixed Website config object is not being cached
 Fixed Removed the ability to work with base_url
 Fixed Custom design should be updated via import functionality
 Fixed JS error during onepage checkout
-Fixed Unable to translate "First name" and "Last name" fields on "Create an Account" page
+Fixed Unable to translate "First name" and "Last name" fields on "Crear una Cuenta" page
 Fixed After upgrading  dashboard "Top 5 Search Terms" grid doesn't show search terms
 
 
@@ -2570,7 +2570,7 @@ Fixed Website config object is not being cached
 Fixed Removed the ability to work with base_url
 Fixed Custom design should be updated via import functionality
 Fixed JS error during onepage checkout
-Fixed Unable to translate "First name" and "Last name" fields on "Create an Account" page
+Fixed Unable to translate "First name" and "Last name" fields on "Crear una Cuenta" page
 Fixed After upgrading  dashboard "Top 5 Search Terms" grid doesn't show search terms
 
 
@@ -2715,7 +2715,7 @@ Fixed Website config object is not being cached
 Fixed Removed the ability to work with base_url
 Fixed Custom design should be updated via import functionality
 Fixed JS error during onepage checkout
-Fixed Unable to translate "First name" and "Last name" fields on "Create an Account" page
+Fixed Unable to translate "First name" and "Last name" fields on "Crear una Cuenta" page
 Fixed After upgrading  dashboard "Top 5 Search Terms" grid doesn't show search terms
 
 
@@ -2843,7 +2843,7 @@ Fixed Website config object is not being cached
 Fixed Removed the ability to work with base_url
 Fixed Custom design should be updated via import functionality
 Fixed JS error during onepage checkout
-Fixed Unable to translate "First name" and "Last name" fields on "Create an Account" page
+Fixed Unable to translate "First name" and "Last name" fields on "Crear una Cuenta" page
 Fixed After upgrading  dashboard "Top 5 Search Terms" grid doesn't show search terms
 
 
@@ -2940,7 +2940,7 @@ Fixed Website config object is not being cached
 Fixed Removed the ability to work with base_url
 Fixed Custom design should be updated via import functionality
 Fixed JS error during onepage checkout
-Fixed Unable to translate "First name" and "Last name" fields on "Create an Account" page
+Fixed Unable to translate "First name" and "Last name" fields on "Crear una Cuenta" page
 Fixed After upgrading  dashboard "Top 5 Search Terms" grid doesn't show search terms
 
 

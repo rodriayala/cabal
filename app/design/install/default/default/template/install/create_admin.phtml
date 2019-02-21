@@ -36,13 +36,13 @@
 <?php echo $this->getMessagesBlock()->toHtml() ?>
 <form action="<?php echo $this->getPostUrl() ?>" method="post" id="form-validate">
 <fieldset class="group-select wide">
- <legend><?php echo $this->__('Personal Information') ?></legend>
-    <h4 class="legend"><?php echo $this->__('Personal Information') ?></h4>
+ <legend><?php echo $this->__('Informacion Personal') ?></legend>
+    <h4 class="legend"><?php echo $this->__('Informacion Personal') ?></h4>
     <ul>
         <li>
             <div class="input-box">
-                <label for="firstname"><?php echo $this->__('First Name') ?> <span class="required">*</span></label><br/>
-                <input type="text" name="admin[firstname]" id="firstname" value="<?php echo $this->getFormData()->getFirstname() ?>" title="<?php echo Mage::helper('core')->quoteEscape($this->__('First Name')) ?>" class="required-entry input-text"/>
+                <label for="firstname"><?php echo $this->__('Nombre') ?> <span class="required">*</span></label><br/>
+                <input type="text" name="admin[firstname]" id="firstname" value="<?php echo $this->getFormData()->getFirstname() ?>" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Nombre')) ?>" class="required-entry input-text"/>
             </div>
             <div class="input-box">
                 <label for="lastname"><?php echo $this->__('Last Name') ?> <span class="required">*</span></label><br/>
@@ -56,8 +56,8 @@
     </ul>
 </fieldset>
 <fieldset class="group-select wide">
-    <legend><?php echo $this->__('Login Information') ?></legend>
-    <h4 class="legend"><?php echo $this->__('Login Information') ?></h4>
+    <legend><?php echo $this->__('Informacion de Ingreso') ?></legend>
+    <h4 class="legend"><?php echo $this->__('Informacion de Ingreso') ?></h4>
     <ul>
         <li>
             <label for="username"><?php echo $this->__('Username') ?> <span class="required">*</span></label><br/>

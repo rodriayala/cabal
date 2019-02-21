@@ -35,7 +35,7 @@ $h = $setting->getImageShoppingCart_Height(120);
 ?>
 <tr>
     <td>
-		<div class="cart-product"><a href="<?php echo $this->getDeleteUrl()?>" title="<?php echo $this->__('Remove item')?>" class="btn-remove btn-remove2"><?php echo $this->__('Remove item')?></a>
+		<div class="cart-product"><a href="<?php echo $this->getDeleteUrl()?>" title="<?php echo $this->__('Remove item')?>" class="btn-remove btn-remove2"><?php echo $this->__('Remover item')?></a>
         <?php if ($this->hasProductUrl()):?><a href="<?php echo $this->getProductUrl() ?>" title="<?php echo $this->escapeHtml($this->getProductName()) ?>" class="product-image"><?php endif;?><img src="<?php echo $this->getProductThumbnail()->resize($w, $h); ?>" width="<?php echo $w; ?>" alt="<?php echo $this->escapeHtml($this->getProductName()) ?>" /><?php if ($this->hasProductUrl()):?></a><?php endif;?></div>
     </td>
     <td>
@@ -78,13 +78,13 @@ $h = $setting->getImageShoppingCart_Height(120);
     </td>
     <td class="a-center">
         <?php if ($isVisibleProduct): ?>
-        <a href="<?php echo $this->getConfigureUrl() ?>" title="<?php echo $this->__('Edit item parameters') ?>"><?php echo $this->__('Edit') ?></a>
+        <a href="<?php echo $this->getConfigureUrl() ?>" title="<?php echo $this->__('Editar los parámetros del elemento') ?>"><?php echo $this->__('Editar') ?></a>
         <?php endif ?>
     </td>
     <?php if ($this->helper('wishlist')->isAllowInCart()) : ?>
     <td class="a-center">
         <?php if ($isVisibleProduct): ?>
-            <a href="<?php echo $this->helper('wishlist')->getMoveFromCartUrl($_item->getId()); ?>" class="link-wishlist use-ajax" title="<?php echo $this->__('Move'); ?>"><?php echo $this->__('Move'); ?></a>
+            <a href="<?php echo $this->helper('wishlist')->getMoveFromCartUrl($_item->getId()); ?>" class="link-wishlist use-ajax" title="<?php echo $this->__('Mover'); ?>"><?php echo $this->__('Mover'); ?></a>
         <?php endif ?>
     </td>
     <?php endif ?>
@@ -92,11 +92,11 @@ $h = $setting->getImageShoppingCart_Height(120);
     <?php if ($canApplyMsrp): ?>
         <td class="a-center"<?php if ($this->helper('tax')->displayCartBothPrices()): ?> colspan="2"<?php endif; ?>>
             <span class="cart-price">
-                <span class="cart-msrp-unit"><?php echo $this->__('See price before order confirmation.'); ?></span>
+                <span class="cart-msrp-unit"><?php echo $this->__('Ver precio antes de la confirmación del pedido.'); ?></span>
                 <?php $helpLinkId = 'cart-msrp-help-' . $_item->getId(); ?>
-                <a id="<?php echo $helpLinkId ?>" href="#" class="map-help-link"><?php echo $this->__("What's this?"); ?></a>
+                <a id="<?php echo $helpLinkId ?>" href="#" class="map-help-link"><?php echo $this->__("¿Qué es esto?"); ?></a>
                 <script type="text/javascript">
-                    Catalog.Map.addHelpLink($('<?php echo $helpLinkId ?>'), "<?php echo $this->__("What's this?") ?>");
+                    Catalog.Map.addHelpLink($('<?php echo $helpLinkId ?>'), "<?php echo $this->__("¿Qué es esto?") ?>");
                 </script>
             </span>
         </td>
@@ -192,7 +192,7 @@ $h = $setting->getImageShoppingCart_Height(120);
 			<div class="qty-ctl">
     			<button title="Decrease Qty" onclick="qtyDown(<?php echo $_item->getId() ?>); return false;" class="decrease">decrease</button>
     		</div>
-            <input id="cart[<?php echo $_item->getId() ?>][qty]" name="cart[<?php echo $_item->getId() ?>][qty]" value="<?php echo $this->getQty() ?>" size="4" title="<?php echo $this->__('Qty') ?>" class="input-text qty" maxlength="12" />
+            <input id="cart[<?php echo $_item->getId() ?>][qty]" name="cart[<?php echo $_item->getId() ?>][qty]" value="<?php echo $this->getQty() ?>" size="4" title="<?php echo $this->__('Cant.') ?>" class="input-text qty" maxlength="12" />
             <div class="qty-ctl">
 				<button title="Increase Qty" onclick="qtyUp(<?php echo $_item->getId() ?>); return false;" class="increase">increase</button>
     		</div>

@@ -26,8 +26,8 @@
 /* @var $this Mage_Catalog_Block_Product_Compare_List */
 ?>
 <div class="page-title title-buttons">
-    <h1><?php echo $this->__('Compare Products') ?></h1>
-    <a href="#" onclick="window.print(); return false;" class="link-print"><?php echo $this->__('Print This Page') ?></a>
+    <h1><?php echo $this->__('Comparar Productos') ?></h1>
+    <a href="#" onclick="window.print(); return false;" class="link-print"><?php echo $this->__('Imprimir esta Pagina') ?></a>
 </div>
 <?php $_total=$this->getItems()->getSize() ?>
 <?php if($_total): ?>
@@ -47,7 +47,7 @@
                 <?php if($_i++%10==0): ?>
                     <th>&nbsp;</th>
                 <?php endif; ?>
-                <td class="a-right"><a href="#" class="btn-remove" onclick="removeItem('<?php echo $this->helper('catalog/product_compare')->getRemoveUrl($_item) ?>');" title="<?php echo $this->__('Remove This Item') ?>"><?php echo $this->__('Remove This Item') ?></a></td>
+                <td class="a-right"><a href="#" class="btn-remove" onclick="removeItem('<?php echo $this->helper('catalog/product_compare')->getRemoveUrl($_item) ?>');" title="<?php echo $this->__('Remover este Item') ?>"><?php echo $this->__('Remover este Item') ?></a></td>
             <?php endforeach; ?>
             </tr>
         </thead>
@@ -65,13 +65,13 @@
                     <?php //echo $this->getReviewsSummaryHtml($_item, 'short') ?>
                     <?php //echo $this->getPriceHtml($_item, true, '-compare-list-top') ?>
                     <!-- <div class="em-add-to-button"><?php if($_item->isSaleable()): ?>
-                        <p><button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Add to Cart')) ?>" class="button btn-cart" onclick="setPLocation('<?php echo $this->helper('catalog/product_compare')->getAddToCartUrl($_item) ?>', true)"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button></p>
+                        <p><button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Agregar al Carrito')) ?>" class="button btn-cart" onclick="setPLocation('<?php echo $this->helper('catalog/product_compare')->getAddToCartUrl($_item) ?>', true)"><span><span><?php echo $this->__('Agregar al Carrito') ?></span></span></button></p>
                     <?php else: ?>
-                        <p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+                        <p class="availability out-of-stock"><span><?php echo $this->__('No hay stock') ?></span></p>
                     <?php endif; ?>
                     <?php if ($this->helper('wishlist')->isAllow()) : ?>
                         <ul class="add-to-links">
-                            <li><a href="<?php echo $this->getAddToWishlistUrl($_item) ?>" class="link-wishlist"><?php echo $this->__('Add to Wishlist') ?></a></li>
+                            <li><a href="<?php echo $this->getAddToWishlistUrl($_item) ?>" class="link-wishlist"><?php echo $this->__('Agregar a los deseados') ?></a></li>
                         </ul>
                     <?php endif; ?></div> -->
                 </td>
@@ -118,13 +118,13 @@
                 <td>
                     <?php echo $this->getPriceHtml($_item, true, '-compare-list-bottom') ?>
                     <div class="em-add-to-button"><?php if($_item->isSaleable()): ?>
-                        <p><button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Add to Cart')) ?>" class="button btn-cart" onclick="setPLocation('<?php echo $this->helper('catalog/product_compare')->getAddToCartUrl($_item) ?>', true)"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button></p>
+                        <p><button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Agregar a los deseos')) ?>" class="button btn-cart" onclick="setPLocation('<?php echo $this->helper('catalog/product_compare')->getAddToCartUrl($_item) ?>', true)"><span><span><?php echo $this->__('Agregar al Carrito') ?></span></span></button></p>
                     <?php else: ?>
-                        <p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+                        <p class="availability out-of-stock"><span><?php echo $this->__('No hay Stock') ?></span></p>
                     <?php endif; ?>
                     <?php if ($this->helper('wishlist')->isAllow()) : ?>
                         <ul class="add-to-links">
-                            <li><a href="<?php echo $this->getAddToWishlistUrl($_item);?>" class="link-wishlist"><?php echo $this->__('Add to Wishlist') ?></a></li>
+                            <li><a href="<?php echo $this->getAddToWishlistUrl($_item);?>" class="link-wishlist"><?php echo $this->__('Agregar a Deseos') ?></a></li>
                         </ul>
                     <?php endif; ?></div>
                 </td>
@@ -133,9 +133,9 @@
         </tbody>
     </table>
     <div class="buttons-set">
-        <button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Close Window')) ?>" class="button" onclick="window.close();"><span><span><?php echo $this->__('Close Window') ?></span></span></button>
+        <button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Cerrar Ventana')) ?>" class="button" onclick="window.close();"><span><span><?php echo $this->__('Cerrar Ventana') ?></span></span></button>
         <span class="please-wait" id="compare-list-please-wait" style="display:none;">
-            <img src="<?php echo $this->getSkinUrl('images/opc-ajax-loader.gif') ?>" alt="<?php echo Mage::helper('core')->quoteEscape($this->__('Please wait...')) ?>" title="<?php echo $this->__('Please wait...') ?>" class="v-middle" /> <?php echo $this->__('Please wait...') ?>
+            <img src="<?php echo $this->getSkinUrl('images/opc-ajax-loader.gif') ?>" alt="<?php echo Mage::helper('core')->quoteEscape($this->__('Please wait...')) ?>" title="<?php echo $this->__('Espere...') ?>" class="v-middle" /> <?php echo $this->__('Espere...') ?>
         </span>
     </div>
     <script type="text/javascript">

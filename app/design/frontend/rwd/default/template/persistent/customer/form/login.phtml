@@ -35,7 +35,7 @@
 <div class="account-login<?php if (!$this->helper('customer')->isRegistrationAllowed()) echo ' login-only' ?>">
     <div class="page-title">
         <h1><?php if ($this->helper('customer')->isRegistrationAllowed()): ?>
-                <?php echo $this->__('Login or Create an Account') ?>
+                <?php echo $this->__('Login or Crear una Cuenta') ?>
             <?php else: ?>
                 <?php echo $this->__('Login'); ?>
             <?php endif; ?></h1>
@@ -56,7 +56,7 @@
                     </ul>
                 </div>
                 <div class="buttons-set">
-                    <a title="<?php echo $this->quoteEscape($this->__('Create an Account')) ?>" class="button" href="<?php echo Mage::helper('persistent')->getCreateAccountUrl($this->getCreateAccountUrl()) ?>"><span><span><?php echo $this->__('Create an Account') ?></span></span></a>
+                    <a title="<?php echo $this->quoteEscape($this->__('Crear una Cuenta')) ?>" class="button" href="<?php echo Mage::helper('persistent')->getCreateAccountUrl($this->getCreateAccountUrl()) ?>"><span><span><?php echo $this->__('Crear una Cuenta') ?></span></span></a>
                 </div>
             </div>
             <?php endif; ?>
