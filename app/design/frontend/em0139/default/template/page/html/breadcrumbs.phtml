@@ -35,7 +35,17 @@
         			$result = substr($result, 0, 80); //cat 100 ki tu dau
      			}
             ?> 
-            <strong class="em-breadcrumbs-title"><?php echo $this->__($result);?><?php if(strlen($resultorg) > 80): ?> <?php echo $this->__(' ...');?><?php endif; ?></strong>        
+            <strong class="em-breadcrumbs-title"><?php 
+                $titulo = $this->__($result);
+              
+                if($this->__($result)=="My Account"){ $titulo = "MI CUENTA"; }
+                if($this->__($result)=="Register"){ $titulo = "Registro"; }
+                if($this->__($result)=="Login"){ $titulo = "Ingresar"; }
+                if($this->__($result)=="Shopping Cart"){ $titulo = "CARRITO DE COMPRAS"; }
+                if($this->__($result)=="Checkout"){ $titulo = "COMPRAS"; }
+              
+                echo $titulo;
+              ?><?php if(strlen($resultorg) > 80): ?> <?php echo $this->__(' ...');?><?php endif; ?></strong>        
         <?php endif; ?>
     <?php endforeach; ?>
     
@@ -46,7 +56,17 @@
 			<?php endif;?>
             <li class="<?php echo $_crumbName ?>" <?php if($_crumbInfo['link']): ?> <?php if(Mage::helper('themeframework/settings')->getSnippets_Enable() && Mage::helper('themeframework/settings')->getSnippets_Breadcrumbs()): ?>itemscope itemtype="http://data-vocabulary.org/Breadcrumb"<?php endif;?><?php endif;?>>
             <?php if($_crumbInfo['link']): ?>
-                <a href="<?php echo $_crumbInfo['link'] ?>" title="<?php echo $this->escapeHtml($_crumbInfo['title']) ?>" <?php if(Mage::helper('themeframework/settings')->getSnippets_Enable() && Mage::helper('themeframework/settings')->getSnippets_Breadcrumbs()): ?><?php if($_crumbInfo['link']): ?> itemprop="url"<?php endif;?><?php endif;?>><span <?php if(Mage::helper('themeframework/settings')->getSnippets_Enable() && Mage::helper('themeframework/settings')->getSnippets_Breadcrumbs()): ?><?php if($_crumbInfo['link']): ?>itemprop="title"<?php endif;?><?php endif;?>><?php echo $this->escapeHtml($_crumbInfo['label']) ?></span></a>
+                <a href="<?php echo $_crumbInfo['link'] ?>" title="<?php echo $this->escapeHtml($_crumbInfo['title']) ?>" <?php if(Mage::helper('themeframework/settings')->getSnippets_Enable() && Mage::helper('themeframework/settings')->getSnippets_Breadcrumbs()): ?><?php if($_crumbInfo['link']): ?> itemprop="url"<?php endif;?><?php endif;?>><span <?php if(Mage::helper('themeframework/settings')->getSnippets_Enable() && Mage::helper('themeframework/settings')->getSnippets_Breadcrumbs()): ?><?php if($_crumbInfo['link']): ?>itemprop="title"<?php endif;?><?php endif;?>><?php 
+                  
+                  
+                  $subtitulo = $this->escapeHtml($_crumbInfo['label']) ;
+              
+                  if($subtitulo=="Home"){ $subtitulo = "Inicio"; }
+              
+                  echo $subtitulo;
+                  
+                  
+                  ?></span></a>
             <?php elseif($_crumbInfo['last']): ?>
                 <?php
                     $result =  $this->escapeHtml($_crumbInfo['label']);
@@ -55,7 +75,21 @@
             			$result = substr($result, 0, 80); //cat 100 ki tu dau
          			}
                 ?> 
-                <strong><?php echo $this->__($result);?><?php if(strlen($resultorg) > 80): ?> <?php echo $this->__(' ...');?><?php endif; ?></strong>
+                <strong><?php 
+                                   
+                 
+                  $titulo2 = $this->__($result);
+              
+                if($this->__($result)=="My Account"){ $titulo2 = "MI CUENTA"; }
+                if($this->__($result)=="Register"){ $titulo2 = "Registro"; }
+                if($this->__($result)=="Login"){ $titulo2 = "Ingresar"; }
+                if($this->__($result)=="Shopping Cart"){ $titulo2 = "CARRITO DE COMPRAS"; }
+                if($this->__($result)=="Checkout"){ $titulo2 = "COMPRAS"; }
+              
+                echo $titulo2;
+                  
+                  
+                  ?><?php if(strlen($resultorg) > 80): ?> <?php echo $this->__(' ...');?><?php endif; ?></strong>
             <?php else: ?>
                 <?php echo $this->escapeHtml($_crumbInfo['label']) ?>
             <?php endif; ?>

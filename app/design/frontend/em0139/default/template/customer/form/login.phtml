@@ -44,23 +44,24 @@
         <div class="col2-set">
             <div class="col-1 new-users">
                 <div class="content">
-                    <h2><?php echo $this->__('New Customers') ?></h2>
-                    <p><?php echo $this->__('By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.') ?></p>
+                    <h2><?php echo $this->__('Nuevo Comprador') ?></h2>
+                    <p><?php echo $this->__('
+Al crear una cuenta en nuestra tienda, podrá moverse a través del proceso de pago más rápido, almacenar múltiples direcciones de envío, ver y rastrear sus pedidos en su cuenta y más.') ?></p>
                 </div>
             </div>
             <div class="col-2 registered-users">
                 <div class="content">
-                    <h2><?php echo $this->__('Registered Customers') ?></h2>
-                    <p><?php echo $this->__('If you have an account with us, please log in.') ?></p>
+                    <h2><?php echo $this->__('Clientes Registrados') ?></h2>
+                    <p><?php echo $this->__('Si tiene una cuenta con nosotros, por favor inicie sesión.') ?></p>
                     <ul class="form-list">
                         <li>
-                            <label for="email" class="required"><em>*</em><?php echo $this->__('Email Address') ?></label>
+                            <label for="email" class="required"><em>*</em><?php echo $this->__('Correo Electronico') ?></label>
                             <div class="input-box">
                                 <input type="text" name="login[username]" value="<?php echo $this->escapeHtml($this->getUsername()) ?>" id="email" class="input-text required-entry validate-email" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Email Address')) ?>" />
                             </div>
                         </li>
                         <li>
-                            <label for="pass" class="required"><em>*</em><?php echo $this->__('Password') ?></label>
+                            <label for="pass" class="required"><em>*</em><?php echo $this->__('Clave') ?></label>
                             <div class="input-box">
                                 <input type="password" name="login[password]" class="input-text required-entry validate-password" id="pass" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Password')) ?>" />
                             </div>

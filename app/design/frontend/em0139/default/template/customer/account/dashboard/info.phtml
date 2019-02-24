@@ -28,8 +28,8 @@
     <div class="col-1">
         <div class="box">
             <div class="box-title">
-                <h3><?php echo $this->__('Contact Information') ?></h3>
-				<a href="<?php echo $this->getUrl('customer/account/edit') ?>" class="link-edit"><span><span><?php echo $this->__('Edit') ?></span></span></a>
+                <h3><?php echo $this->__('Información del contacto') ?></h3>
+				<a href="<?php echo $this->getUrl('customer/account/edit') ?>" class="link-edit"><span><span><?php echo $this->__('Editar') ?></span></span></a>
             </div>
             <div class="box-content">
                 <p>
@@ -37,7 +37,7 @@
                     <?php echo $this->escapeHtml($this->getCustomer()->getEmail()) ?><br />
                 </p>
 				<p class="change-pass">
-					<a href="<?php echo $this->getChangePasswordUrl() ?>" class="button-link btn-link-01"><?php echo $this->__('Change Password') ?></a>
+					<a href="<?php echo $this->getChangePasswordUrl() ?>" class="button-link btn-link-01"><?php echo $this->__('Cambia la contraseña') ?></a>
 				</p>
             </div>
         </div>
@@ -47,14 +47,14 @@
         <div class="box">
             <div class="box-title">
                 <h3><?php echo $this->__('Newsletters') ?></h3>
-				<a href="<?php echo $this->getUrl('newsletter/manage') ?>" class="link-edit"><span><span><?php echo $this->__('Edit') ?></span></span></a>
+				<a href="<?php echo $this->getUrl('newsletter/manage') ?>" class="link-edit"><span><span><?php echo $this->__('Editar') ?></span></span></a>
             </div>
             <div class="box-content">
                 <p>
                     <?php if( $this->getIsSubscribed() ): ?>
-                        <?php echo $this->__("You are currently subscribed to 'General Subscription'.") ?>
+                        <?php echo $this->__("Actualmente estás suscrito a 'Suscripción General'") ?>
                     <?php else: ?>
-                        <?php echo $this->__('You are currently not subscribed to any newsletter.') ?>
+                        <?php echo $this->__('Actualmente no estás suscrito a ningún boletín.') ?>
                     <?php endif; ?>
                 </p>
             </div>
