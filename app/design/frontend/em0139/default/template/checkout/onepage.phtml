@@ -36,8 +36,20 @@
         <div class="em-box-02 step-title">
             <div class="title-box">
                 <span class="number"><?php echo $i ?></span>
-                <h2><?php echo $_stepInfo['label'] ?></h2>
-                <a href="#"><?php echo $this->__('Edit') ?></a>
+                <h2><?php 
+                    $pasoinfo = $_stepInfo['label']; 
+                    if(trim($pasoinfo)=="Checkout Method"){ $pasoinfo = "Metodo de Compra";}
+                    if(trim($pasoinfo)=="Billing Information"){ $pasoinfo = "Datos de facturación";}
+                    if(trim($pasoinfo)=="Shipping Information"){ $pasoinfo = "Información de Envío";}
+                    if(trim($pasoinfo)=="Shipping Method"){ $pasoinfo = "Método de envío";}
+                    if(trim($pasoinfo)=="Payment Information"){ $pasoinfo = "Información del pago";}
+                    if(trim($pasoinfo)=="Order Review"){ $pasoinfo = "Revisión del pedido";}
+                    
+                //echo "--".$_stepInfo['label']."--"; 
+                  echo $pasoinfo;
+                  
+                  ?></h2>
+                <a href="#"><?php echo $this->__('Editar') ?></a>
             </div>
         </div>
         <div id="checkout-step-<?php echo $_stepId ?>" class="step a-item" style="display:none;">

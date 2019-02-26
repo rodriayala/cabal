@@ -27,7 +27,7 @@
 <?php /** @var $this Mage_Checkout_Block_Onepage_Shipping_Method_Available */ ?>
 <?php $_shippingRateGroups = $this->getShippingRates(); ?>
 <?php if (!$_shippingRateGroups): ?>
-    <p><?php echo $this->__('Sorry, no quotes are available for this order at this time.') ?></p>
+    <p><?php echo $this->__('Lo sentimos, no hay citas disponibles para este pedido en este momento.') ?></p>
 <?php else: ?>
     <dl class="sp-methods">
     <?php $shippingCodePrice = array(); ?>
@@ -60,7 +60,7 @@
                         <?php $_incl = $this->getShippingPrice($_rate->getPrice(), true); ?>
                         <?php echo $_excl; ?>
                         <?php if ($this->helper('tax')->displayShippingBothPrices() && $_incl != $_excl): ?>
-                            (<?php echo $this->__('Incl. Tax'); ?> <?php echo $_incl; ?>)
+                            (<?php echo $this->__('Incl. Imp.'); ?> <?php echo $_incl; ?>)
                         <?php endif; ?>
                         </label>
                    <?php endif ?>

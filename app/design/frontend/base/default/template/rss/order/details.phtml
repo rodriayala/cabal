@@ -95,7 +95,7 @@ store name = $_order->getStore()->getGroup()->getName()
             </tr>
         <?php endif; ?>
         <tr bgcolor="#DEE5E8">
-            <td colspan="2" align="right" style="padding:3px 9px"><strong><big><?php echo $this->__('Grand Total') ?></big></strong></td>
+            <td colspan="2" align="right" style="padding:3px 9px"><strong><big><?php echo $this->__('Sub Total') ?></big></strong></td>
             <td align="right" style="padding:6px 9px"><strong><big><?php echo $_order->formatPrice($_order->getGrandTotal()) ?></big></strong></td>
         </tr>
     </tfoot>

@@ -35,7 +35,13 @@
                 <?php if($setting->getGeneral_CatSearch() != -1): ?>
                 <div class="input_cat hidden-xs">
                     <select id="em-hoverUl-catsearch" name="cat" class="cat-search">
-                        <?php echo $this->getChildHtml('em_search_category'); ?>
+                        <?php 
+                      
+                          $titulo =  $this->getChildHtml('em_search_category'); 
+                          //if(trim($titulo)=="<option value="0">&nbsp;&nbsp;&nbsp; All Categories</option>"){ $titulo = "<option value="0">&nbsp;&nbsp;&nbsp; Todas las Categorias</option>";}
+                          echo $titulo;
+                      
+                      ?>
                     </select>
                 </div>
                 <script type="text/javascript">
@@ -66,7 +72,7 @@
                 </div>
                 <script type="text/javascript">
                 //<![CDATA[
-                    var searchForm = new Varien.searchForm('search_mini_form', 'search', '<?php echo $this->__('Search entire store here...') ?>');
+                    var searchForm = new Varien.searchForm('search_mini_form', 'search', '<?php echo $this->__('Buscar en Cabalgando...') ?>');
                     searchForm.initAutocomplete('<?php echo $catalogSearchHelper->getSuggestUrl() ?>', 'search_autocomplete');
                 //]]>
                 </script>
