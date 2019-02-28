@@ -5272,7 +5272,7 @@
       <action method="addLink" translate="label" module="downloadable">
          <name>downloadable_products</name>
          <path>downloadable/customer/products</path>
-         <label>Mis Productos Descargables</label>
+         <label>My Downloadable Products</label>
       </action>
    </reference>
 </customer_account>
@@ -5284,7 +5284,7 @@
    </reference>
    <reference name="root">
       <action method="setHeaderTitle" translate="title" module="downloadable">
-         <title>Mis Productos Descargables</title>
+         <title>My Downloadable Products</title>
       </action>
    </reference>
 </downloadable_customer_products>

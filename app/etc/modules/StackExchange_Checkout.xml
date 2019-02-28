@@ -1,0 +1,11 @@
+<config>
+    <modules>
+        <StackExchange_Checkout>
+            <active>false</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Checkout />
+            </depends>
+        </StackExchange_Checkout>
+    </modules>
+</config>

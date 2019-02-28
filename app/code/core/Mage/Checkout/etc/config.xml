@@ -260,6 +260,6 @@
                 <reciever>general</reciever>
                 <template>checkout_payment_failed_template</template>
             </payment_failed>
-        </checkout>
+        </checkout>    
     </default>
 </config>

@@ -1319,7 +1319,7 @@ input[type="checkbox"]:checked {
 .my-account .recent-orders .pager,
 .my-account .recent-orders + .buttons-set { display:none; }
 
-/* Mis Productos Descargables, My Reviews */
+/* My Downloadable Products, My Reviews */
 .my-account .review-history { padding:0; }
 
 .my-account .downloadable-products-history .list,
