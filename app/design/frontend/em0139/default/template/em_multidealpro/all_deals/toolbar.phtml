@@ -40,7 +40,7 @@
 			<p class="view-mode">
 				<?php $_modes = $this->getModes(); ?>
 				<?php if($_modes && count($_modes)>1): ?>
-				<label><?php echo $this->__('View as') ?>:</label><?php //echo '<pre>';print_r($this->getModes()); ?>
+				<label><?php echo $this->__('Ver') ?>:</label><?php //echo '<pre>';print_r($this->getModes()); ?>
 				<?php foreach ($this->getModes() as $_code=>$_label): ?>
 					<?php if($this->isModeActive($_code)): ?>
 						<strong title="<?php echo $_label ?>" class="<?php echo strtolower($_code); ?>"><?php echo $_label ?></strong>&nbsp;
@@ -58,7 +58,7 @@
 	<div class="pager">
 		<p class="amount em_demo_amount">
 			<?php if($this->getLastPageNum()>1): ?>
-				<?php echo $this->__('Items %s to %s of %s total', $this->getFirstNum(), $this->getLastNum(), $this->getTotalNum()) ?>
+				<?php echo $this->__('Items %s a %s de %s total', $this->getFirstNum(), $this->getLastNum(), $this->getTotalNum()) ?>
 			<?php else: ?>
 				<strong><?php echo $this->__('%s Item(s)', $this->getTotalNum()) ?></strong>
 			<?php endif; ?>

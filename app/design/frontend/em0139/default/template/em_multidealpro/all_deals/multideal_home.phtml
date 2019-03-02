@@ -61,7 +61,7 @@
     							<?php if ($setting->getMainDeal_ShowDescription()):?>
     								<div class="desc std">
     									<?php echo $_helper->productAttribute($_product, $_product->getShortDescription(), 'short_description') ?>
-    									<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $_productNameStripped ?>" class="link-learn"><?php echo $this->__('Learn More') ?></a>
+    									<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $_productNameStripped ?>" class="link-learn"><?php echo $this->__('Leer Mas') ?></a>
     								</div>
     							<?php endif ?>
     
@@ -73,7 +73,7 @@
     							<?php $status = $_product->getDealStatus(); ?>
     							<!-- Show qty item left && Clock Countdown -->
     							<?php if ($status == 2): ?>
-    								<div class="msg_soldout"><?php echo $this->__('Time Out') ?></div>
+    								<div class="msg_soldout"><?php echo $this->__('Sin Tiempo') ?></div>
     							<?php else: ?>
     								<?php if($setting->getShowQty()):?>
     								   <?php echo $setting->getQtyleft($_product); ?>
@@ -88,9 +88,9 @@
                                     <!-- Show Button AddtoCart -->
         							<?php if ($status == 1 && $setting->getMainDeal_ShowBtncart()): ?>
         								<?php if($_product->isSaleable()): ?>
-        									<button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Add to Cart')) ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+        									<button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Add to Cart')) ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Agregar al Carrito') ?></span></span></button>
         								<?php else: ?>
-        									<p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+        									<p class="availability out-of-stock"><span><?php echo $this->__('Sin Stock') ?></span></p>
         								<?php endif; ?>
         							<?php endif; ?>
         
@@ -98,10 +98,10 @@
         							<?php if ($setting->getMainDeal_ShowAddto()): ?>
         								<ul class="add-to-links">
         									<?php if ($this->helper('wishlist')->isAllow()) : ?>
-        										<li><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="link-wishlist" title="<?php echo $this->__('Add to Wishlist') ?>"><?php echo $this->__('Add to Wishlist') ?></a></li>
+        										<li><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="link-wishlist" title="<?php echo $this->__('Agregar a Deseos') ?>"><?php echo $this->__('Agregar a Deseos') ?></a></li>
         									<?php endif; ?>
         									<?php if($_compareUrl=$this->getAddToCompareUrl($_product)): ?>
-        										<li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>" class="link-compare" title="<?php echo $this->__('Add to Compare') ?>"><?php echo $this->__('Add to Compare') ?></a></li>
+        										<li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>" class="link-compare" title="<?php echo $this->__('Agregar a Comparar') ?>"><?php echo $this->__('Agregar a Comparar') ?></a></li>
         									<?php endif; ?>
         								</ul>
         							<?php endif ?>
@@ -157,19 +157,19 @@
         							<?php if ($setting->getMainDeal_ShowDescription()):?>
         								<div class="desc std">
         									<?php echo $_helper->productAttribute($_product, $_product->getShortDescription(), 'short_description') ?>
-        									<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $_productNameStripped ?>" class="link-learn"><?php echo $this->__('Learn More') ?></a>
+        									<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $_productNameStripped ?>" class="link-learn"><?php echo $this->__('Leer Mas') ?></a>
         								</div>
         							<?php endif ?>
         
         							<!-- Show Price -->
         							<?php if ($setting->getMainDeal_ShowPrice()): ?>
-        								<?php echo $this->getPriceHtml($_product, true) ?>
+        								<?php  echo $this->getPriceHtml($_product, true); ?>
         							<?php endif; ?>
         
         							<?php $status = $_product->getDealStatus(); ?>
         							<!-- Show qty item left && Clock Countdown -->
         							<?php if ($status == 2): ?>
-        								<div class="msg_soldout"><?php echo $this->__('Time Out') ?></div>
+        								<div class="msg_soldout"><?php echo $this->__('Sin Tiempo') ?></div>
         							<?php else: ?>
         								<?php echo $setting->getQtyleft($_product); ?>
         
@@ -183,9 +183,9 @@
             							<!-- Show Button AddtoCart -->
             							<?php if ($status == 1 && $setting->getMainDeal_ShowBtncart()): ?>
             								<?php if($_product->isSaleable()): ?>
-            									<button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Add to Cart')) ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button>
+            									<button type="button" title="<?php echo Mage::helper('core')->quoteEscape($this->__('Add to Cart')) ?>" class="button btn-cart" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Agregar al Carrito') ?></span></span></button>
             								<?php else: ?>
-            									<p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+            									<p class="availability out-of-stock"><span><?php echo $this->__('Sin stock') ?></span></p>
             								<?php endif; ?>
             							<?php endif; ?>
             
@@ -193,10 +193,10 @@
             							<?php if ($setting->getMainDeal_ShowAddto()): ?>
             								<ul class="add-to-links">
             									<?php if ($this->helper('wishlist')->isAllow()) : ?>
-            										<li><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="link-wishlist" title="<?php echo $this->__('Add to Wishlist') ?>"><?php echo $this->__('Add to Wishlist') ?></a></li>
+            										<li><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>" class="link-wishlist" title="<?php echo $this->__('Add to Wishlist') ?>"><?php echo $this->__('Agregar a Deseos') ?></a></li>
             									<?php endif; ?>
             									<?php if($_compareUrl=$this->getAddToCompareUrl($_product)): ?>
-            										<li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>" class="link-compare" title="<?php echo $this->__('Add to Compare') ?>"><?php echo $this->__('Add to Compare') ?></a></li>
+            										<li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>" class="link-compare" title="<?php echo $this->__('Add to Compare') ?>"><?php echo $this->__('Agregar a Comparar') ?></a></li>
             									<?php endif; ?>
             								</ul>
             							<?php endif ?>

@@ -12,8 +12,8 @@ class EM_Multidealpro_Helper_Clock extends EM_Multidealpro_Helper_Data
 		$html .= '				<div class="deal_status" style="display:none">'.$_product->getDealStatus().'</div>';
 		$html .= '				<div class="time" style="display:none">'.$date.'</div>';
 		$html .= '				<div class="em-multideal-price-box">';
-		$html .= '					<span class="regular-price"><span class="price-label">'.$this->__("Regular Price :").'</span>&nbsp;'.'<span class="price">'.Mage::helper('core')->currency($_product->getPrice()).'</span></span>';
-		$html .= '					<span class="special-price"><span class="price-label">'.$this->__("Special Price :").'</span>&nbsp;'.'<span class="price">'.Mage::helper('core')->currency($_product->getDealPrice()).'</span></span>';
+		//$html .= '					<span class="regular-price"><span class="price-label">'.$this->__("Regular Price :").'</span>&nbsp;'.'<span class="price">'.Mage::helper('core')->currency($_product->getPrice()).'</span></span>';
+		$html .= '					<span class="special-price"><span class="price-label">'.$this->__("Precio especial :").'</span>&nbsp;'.'<span class="price">'.Mage::helper('core')->currency($_product->getDealPrice()).'</span></span>';
 		$html .= '				</div>';
 
 		$html .= '				<ul class="clock">';
@@ -70,9 +70,9 @@ class EM_Multidealpro_Helper_Clock extends EM_Multidealpro_Helper_Data
 					}elseif($type == 3){
 						$html .=	'<div class="show_details">';
 						if($_product->getDealStatus() == 0)
-							$html .=		'<div class="title"><span style="display:none">'.$this->__("Get it before it's gone !").'</span><span class="qty_left soon">'.$this->__("Time left to buy !").'</span></div>';
+							$html .=		'<div class="title"><span style="display:none">'.$this->__("¡Compralo antes de que se termine!").'</span><span class="qty_left soon">'.$this->__("Tiempo restante para comprar !").'</span></div>';
 						else
-							$html .=		'<div class="title"><span>'.$this->__("Get it before it's gone !").'</span></div>';
+							$html .=		'<div class="title"><span>'.$this->__("¡Compralo antes de que se termine !").'</span></div>';
 						$html .=		'<div class="deal_info" style="display:none">'.$this->getInfo($type).'</div>';
 						$html .=		$this->getClock($_product);
 						$html .=	'</div>';

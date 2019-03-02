@@ -110,7 +110,7 @@ class EM_Ajaxcart_CartController extends Mage_Checkout_CartController
 
             if (!$this->_getSession()->getNoCartRedirect(true)) {
                 if (!$cart->getQuote()->getHasError()){
-                    $message = $this->__('%s was successfully added to your shopping cart.', $product->getName());
+                    $message = $this->__('%s fue agregado exitosamente a su carrito de compras.', $product->getName());
 					$img = "<img src='".Mage::helper('catalog/image')->init($product, 'image')->resize(60,null)."' />";
 					$tmp_product = '<div id="message_ajax"><div class="ajaxcart_image">'.$img.'</div><div class="ajaxcart_message">'.$message.'</div></div>';
 					$check = 'success';
@@ -126,7 +126,7 @@ class EM_Ajaxcart_CartController extends Mage_Checkout_CartController
 			}
         } catch (Exception $e) {
 			$check = 'failed';
-            $this->_getSession()->addException($e, $this->__('Cannot add the item to shopping cart.'));
+            $this->_getSession()->addException($e, $this->__('No se puede agregar el artículo al carrito de compras.'));
             Mage::logException($e);
         }
 
@@ -191,7 +191,7 @@ class EM_Ajaxcart_CartController extends Mage_Checkout_CartController
 						 $tmp_product	=	'<div id="message_ajax">'.Mage::helper('core')->escapeHtml($e->getMessage()).'</div>';
                     }
                 } catch (Exception $e) {
-                    $this->_getSession()->addException($e, $this->__('Cannot add the item to shopping cart.'));
+                    $this->_getSession()->addException($e, $this->__('No se puede agregar el artículo al carrito de compras.'));
                     Mage::logException($e);
                     $this->_goBack();
                 }
@@ -199,7 +199,7 @@ class EM_Ajaxcart_CartController extends Mage_Checkout_CartController
             if($cart->save()){
 				$this->_getSession()->setCartWasUpdated(true);
 				
-				$message = $this->__('Total of %d product(s) were successfully added to your shopping cart.', count($itemsCollection));
+				$message = $this->__('Un total de %d producto(s) fueron agregados exitosamente a su carrito de compras.', count($itemsCollection));
 				$check = 'success';
 				$tmp_product	=	'<div id="message_ajax">'.$message.'</div>';
 			}
@@ -300,7 +300,7 @@ class EM_Ajaxcart_CartController extends Mage_Checkout_CartController
             if (!$this->_getSession()->getNoCartRedirect(true)) {
                 if (!$cart->getQuote()->getHasError()){
 					$product = $item->getProduct();
-                    $message = $this->__('%s was successfully added to your shopping cart.', $product->getName());					
+                    $message = $this->__('%s fue agregado exitosamente a su carrito de compras.', $product->getName());					
 					$img = "<img src='".Mage::helper('catalog/image')->init($product, 'image')->resize(60,null)."' />";
 					$tmp_product = '<div id="message_ajax"><div class="ajaxcart_image">'.$img.'</div><div class="ajaxcart_message">'.$message.'</div></div>';
 					$check = 'success';	
@@ -314,7 +314,7 @@ class EM_Ajaxcart_CartController extends Mage_Checkout_CartController
                 $tmp_product	=	'<div id="message_ajax">'.Mage::helper('core')->escapeHtml($e->getMessage()).'</div>';	
             }
 		} catch (Exception $e) {
-			Mage::register('ajaxcart_message',$this->__('Cannot update the item.'));
+			Mage::register('ajaxcart_message',$this->__('No se puede actualizar el elemento.'));
         }
 		
 		$url = $this->getRequest()->getParam('return_url');

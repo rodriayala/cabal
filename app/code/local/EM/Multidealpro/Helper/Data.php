@@ -34,9 +34,9 @@ class EM_Multidealpro_Helper_Data extends Mage_Core_Helper_Abstract
 
 		$html = "<div class=\"deal_qty\">";
 		if($product->getDealStatus() == 0)
-			$html .=	"<span class=\"qty_left soon\">".$this->__("Time left to buy !")."</span>";
+			$html .=	"<span class=\"qty_left soon\">".$this->__("Tiempo restante para comprar !")."</span>";
 		else
-			$html .=	"<span class=\"qty_left soldin\">".$this->__("QTY : %d item(s) left !",$result)."</span>";
+			$html .=	"<span class=\"qty_left soldin\">".$this->__("Cant. : %d item(s) Disponibles!",$result)."</span>";
 		$html .= "</div>";
 
 		return $html;
@@ -49,7 +49,7 @@ class EM_Multidealpro_Helper_Data extends Mage_Core_Helper_Abstract
 		$html = "";
 
 		if($status == 0){
-			$html	.=	"<div class='sale_off queued'>".$this->__("Coming <span>Soon</span>")."</div>";
+			$html	.=	"<div class='sale_off queued'>".$this->__("Coming <span>Proximamente</span>")."</div>";
 		}elseif($status == 1){
 			if($specialPrice > 0 && $regularPrice != 0){
 				if($specialPrice < $regularPrice){
