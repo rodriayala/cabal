@@ -55,8 +55,8 @@ class Mage_Adminhtml_Block_System_Account_Edit_Form extends Mage_Adminhtml_Block
 
         $fieldset->addField('firstname', 'text', array(
                 'name'  => 'firstname',
-                'label' => Mage::helper('adminhtml')->__('First Name'),
-                'title' => Mage::helper('adminhtml')->__('First Name'),
+                'label' => Mage::helper('adminhtml')->__('Nombre'),
+                'title' => Mage::helper('adminhtml')->__('Nombre'),
                 'required' => true,
             )
         );

@@ -94,7 +94,7 @@ class Mage_Adminhtml_Block_Newsletter_Subscriber_Grid extends Mage_Adminhtml_Blo
         ));
 
         $this->addColumn('firstname', array(
-            'header'    => Mage::helper('newsletter')->__('Customer First Name'),
+            'header'    => Mage::helper('newsletter')->__('Customer Nombre'),
             'index'     => 'customer_firstname',
             'default'   =>    '----'
         ));

@@ -28,7 +28,7 @@ $this->startSetup();
 
 $orderAddressEntityTypeId = 'order_address';
 $attributeLabels = array(
-    'firstname' => 'First Name',
+    'firstname' => 'Nombre',
     'lastname' => 'Last Name',
     'company' => 'Company',
     'street' => 'Street Address',

@@ -76,7 +76,7 @@ class Mage_Adminhtml_Block_Customer_Edit_Tab_Orders extends Mage_Adminhtml_Block
         ));
 
         /*$this->addColumn('shipping_firstname', array(
-            'header'    => Mage::helper('customer')->__('Shipped to First Name'),
+            'header'    => Mage::helper('customer')->__('Shipped to Nombre'),
             'index'     => 'shipping_firstname',
         ));
 

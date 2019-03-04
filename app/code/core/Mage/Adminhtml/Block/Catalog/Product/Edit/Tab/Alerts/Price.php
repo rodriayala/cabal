@@ -65,7 +65,7 @@ class Mage_Adminhtml_Block_Catalog_Product_Edit_Tab_Alerts_Price extends Mage_Ad
     protected function _prepareColumns()
     {
         $this->addColumn('firstname', array(
-            'header'    => Mage::helper('catalog')->__('First Name'),
+            'header'    => Mage::helper('catalog')->__('Nombre'),
             'index'     => 'firstname',
         ));
 

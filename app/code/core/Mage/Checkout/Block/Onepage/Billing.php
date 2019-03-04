@@ -122,8 +122,8 @@ class Mage_Checkout_Block_Onepage_Billing extends Mage_Checkout_Block_Onepage_Ab
     }
 
     /**
-     * Return Customer Address First Name
-     * If Sales Quote Address First Name is not defined - return Customer First Name
+     * Return Customer Address Nombre
+     * If Sales Quote Address Nombre is not defined - return Customer Nombre
      *
      * @return string
      */

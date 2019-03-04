@@ -101,7 +101,7 @@ class Mage_Adminhtml_Block_Api_Role_Grid_User extends Mage_Adminhtml_Block_Widge
         ));
 
         $this->addColumn('role_user_firstname', array(
-            'header'    =>Mage::helper('adminhtml')->__('First Name'),
+            'header'    =>Mage::helper('adminhtml')->__('Nombre'),
             'align'     =>'left',
             'index'     =>'firstname'
         ));

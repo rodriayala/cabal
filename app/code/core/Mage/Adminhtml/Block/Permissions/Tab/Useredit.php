@@ -48,9 +48,9 @@ class Mage_Adminhtml_Block_Permissions_Tab_Useredit extends Mage_Adminhtml_Block
         $fieldset->addField('firstname', 'text',
             array(
                 'name'  => 'firstname',
-                'label' => Mage::helper('adminhtml')->__('First Name'),
+                'label' => Mage::helper('adminhtml')->__('Nombre'),
                 'id'    => 'firstname',
-                'title' => Mage::helper('adminhtml')->__('First Name'),
+                'title' => Mage::helper('adminhtml')->__('Nombre'),
                 'class' => 'required-entry',
                 'required' => true,
             )

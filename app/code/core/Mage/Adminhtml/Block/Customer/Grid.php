@@ -70,7 +70,7 @@ class Mage_Adminhtml_Block_Customer_Grid extends Mage_Adminhtml_Block_Widget_Gri
             'type'  => 'number',
         ));
         /*$this->addColumn('firstname', array(
-            'header'    => Mage::helper('customer')->__('First Name'),
+            'header'    => Mage::helper('customer')->__('Nombre'),
             'index'     => 'firstname'
         ));
         $this->addColumn('lastname', array(

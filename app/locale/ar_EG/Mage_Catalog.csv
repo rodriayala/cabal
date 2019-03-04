@@ -210,7 +210,7 @@
 "Filterable (no results)","ترشيح (لا توجد نتائج)."
 "Filterable (with results)","ترشيح (يوجد نتائج)."
 "Filters must be as array","مرشحات يجب ان تكون المصفوفه"
-"First Name","الاسم الاول"
+"Nombre","الاسم الاول"
 "Fixed","تصليح"
 "Flat Catalog module has a limit of %2$d filterable and/or sort able attributes. Currently there are %1$d. Please reduce the number of filterable/sort able attributes in order to use this module.","Flat Catalog module has a limit of %2$d filterable and/or sort able attributes. Currently there are %1$d. Please reduce the number of filterable/sort able attributes in order to use this module."
 "For internal use. Must be unique with no spaces","للاستعمال الداخلي. يجب ان تكون فريدة من نوعها مع وجود مسافات"

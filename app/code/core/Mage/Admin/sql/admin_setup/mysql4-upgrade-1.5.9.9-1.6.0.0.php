@@ -83,7 +83,7 @@ $tables = array(
             'firstname' => array(
                 'type'      => Varien_Db_Ddl_Table::TYPE_TEXT,
                 'length'    => 32,
-                'comment'   => 'User First Name'
+                'comment'   => 'User Nombre'
             ),
             'lastname' => array(
                 'type'      => Varien_Db_Ddl_Table::TYPE_TEXT,

@@ -533,7 +533,7 @@ class Mage_Admin_Model_User extends Mage_Core_Model_Abstract
         }
 
         if (!Zend_Validate::is($this->getFirstname(), 'NotEmpty')) {
-            $errors[] = Mage::helper('adminhtml')->__('First Name is required field.');
+            $errors[] = Mage::helper('adminhtml')->__('Nombre is required field.');
         }
 
         if (!Zend_Validate::is($this->getLastname(), 'NotEmpty')) {

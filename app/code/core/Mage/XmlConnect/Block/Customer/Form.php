@@ -133,7 +133,7 @@ class Mage_XmlConnect_Block_Customer_Form extends Mage_Core_Block_Abstract
     protected function _addCustomerData(Mage_XmlConnect_Model_Simplexml_Form_Element_Fieldset $customerFieldset)
     {
         $customerFieldset->addField('firstname', 'text', array(
-            'label' => $this->__('First Name'),
+            'label' => $this->__('Nombre'),
             'required' => 'true',
             'value' => $this->getFirstname()
         ));

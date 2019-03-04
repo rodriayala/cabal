@@ -67,7 +67,7 @@ class Mage_Adminhtml_Block_Report_Tag_Popular_Detail_Grid extends Mage_Adminhtml
     {
 
         $this->addColumn('firstname', array(
-            'header'    =>Mage::helper('reports')->__('First Name'),
+            'header'    =>Mage::helper('reports')->__('Nombre'),
             'index'     =>'firstname'
         ));
 

@@ -188,7 +188,7 @@ class Mage_Customer_Model_Resource_Setup extends Mage_Eav_Model_Entity_Setup
                     ),
                     'firstname'          => array(
                         'type'               => 'varchar',
-                        'label'              => 'First Name',
+                        'label'              => 'Nombre',
                         'input'              => 'text',
                         'sort_order'         => 40,
                         'validate_rules'     => 'a:2:{s:15:"max_text_length";i:255;s:15:"min_text_length";i:1;}',
@@ -196,7 +196,7 @@ class Mage_Customer_Model_Resource_Setup extends Mage_Eav_Model_Entity_Setup
                     ),
                     'middlename'         => array(
                         'type'               => 'varchar',
-                        'label'              => 'Middle Name/Initial',
+                        'label'              => 'Segundo Nombre',
                         'input'              => 'text',
                         'required'           => false,
                         'sort_order'         => 50,
@@ -347,7 +347,7 @@ class Mage_Customer_Model_Resource_Setup extends Mage_Eav_Model_Entity_Setup
                     ),
                     'firstname'          => array(
                         'type'               => 'varchar',
-                        'label'              => 'First Name',
+                        'label'              => 'Nombre',
                         'input'              => 'text',
                         'sort_order'         => 20,
                         'validate_rules'     => 'a:2:{s:15:"max_text_length";i:255;s:15:"min_text_length";i:1;}',
@@ -355,7 +355,7 @@ class Mage_Customer_Model_Resource_Setup extends Mage_Eav_Model_Entity_Setup
                     ),
                     'middlename'         => array(
                         'type'               => 'varchar',
-                        'label'              => 'Middle Name/Initial',
+                        'label'              => 'Segundo Nombre',
                         'input'              => 'text',
                         'required'           => false,
                         'sort_order'         => 30,

@@ -255,7 +255,7 @@
                 <versions>1</versions>
                 <attributes translate="lastname firstname middlename prefix suffix company street city region postcode country_id telephone address_type email" module="api2">
                     <lastname>Customer Last Name</lastname>
-                    <firstname>Customer First Name</firstname>
+                    <firstname>Customer Nombre</firstname>
                     <middlename>Customer Middle Name</middlename>
                     <prefix>Customer Prefix</prefix>
                     <suffix>Customer Suffix</suffix>

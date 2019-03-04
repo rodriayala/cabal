@@ -52,7 +52,7 @@ class Mage_XmlConnect_Block_Checkout_Address_Form extends Mage_Core_Block_Abstra
         $isAllowedGuestCheckout = Mage::getSingleton('checkout/session')->getQuote()->isAllowedGuestCheckout();
 
         $fromXmlObj->addField('firstname', 'text', array(
-            'name' => 'firstname', 'label' => $this->__('First Name'), 'required' => 'true'
+            'name' => 'firstname', 'label' => $this->__('Nombre'), 'required' => 'true'
         ));
 
         $fromXmlObj->addField('lastname', 'text', array(

@@ -66,7 +66,7 @@ class Mage_Adminhtml_Block_Report_Shopcart_Customer_Grid extends Mage_Adminhtml_
         ));
 
         $this->addColumn('firstname', array(
-            'header'    =>Mage::helper('reports')->__('First Name'),
+            'header'    =>Mage::helper('reports')->__('Nombre'),
             'index'     =>'firstname'
         ));
 

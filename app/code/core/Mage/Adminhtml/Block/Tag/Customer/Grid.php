@@ -83,7 +83,7 @@ class Mage_Adminhtml_Block_Tag_Customer_Grid extends Mage_Adminhtml_Block_Widget
         ));
 
         $this->addColumn('firstname', array(
-            'header'    => Mage::helper('tag')->__('First Name'),
+            'header'    => Mage::helper('tag')->__('Nombre'),
             'index'     => 'firstname',
         ));
 

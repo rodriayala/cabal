@@ -150,7 +150,7 @@ $table = $installer->getConnection()
         ), 'User ID')
     ->addColumn('firstname', Varien_Db_Ddl_Table::TYPE_TEXT, 32, array(
         'nullable'  => true,
-        ), 'User First Name')
+        ), 'User Nombre')
     ->addColumn('lastname', Varien_Db_Ddl_Table::TYPE_TEXT, 32, array(
         'nullable'  => true,
         ), 'User Last Name')

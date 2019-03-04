@@ -299,7 +299,7 @@ class Mage_XmlConnect_Block_Customer_Address_Form extends Mage_Customer_Block_Ad
     {
         $firstName  = $this->getAddress()->getFirstname();
         $contactInfoFieldset->addField('firstname', 'text', array(
-            'label' => $this->__('First Name'),
+            'label' => $this->__('Nombre'),
             'required' => 'true',
             'value' => isset($firstName) ? $firstName : ''
         ));

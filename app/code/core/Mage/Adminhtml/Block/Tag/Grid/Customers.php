@@ -72,7 +72,7 @@ class Mage_Adminhtml_Block_Tag_Grid_Customers extends Mage_Adminhtml_Block_Widge
             'index'    => 'entity_id',
         ));
         $this->addColumn('firstname', array(
-            'header' => Mage::helper('tag')->__('First Name'),
+            'header' => Mage::helper('tag')->__('Nombre'),
             'index'  => 'firstname',
         ));
         $this->addColumn('middlename', array(

@@ -52,7 +52,7 @@ class Mage_XmlConnect_Block_Checkout_Onepage_Address_Form extends Mage_Core_Bloc
         $formFieldset = $formXmlObj->addFieldset($addressType);
 
         $formFieldset->addField('firstname', 'text', array(
-            'name' => 'firstname', 'label' => $this->__('First Name'), 'required' => '1'
+            'name' => 'firstname', 'label' => $this->__('Nombre'), 'required' => '1'
         ));
 
         $formFieldset->addField('lastname', 'text', array(
